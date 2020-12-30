@@ -46,14 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormPocetna.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormPocetna.Designer.cs">
+      <DependentUpon>FormPocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje1.Designer.cs">
+      <DependentUpon>Pitanje1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje2.Designer.cs">
+      <DependentUpon>Pitanje2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje3.Designer.cs">
+      <DependentUpon>Pitanje3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje4.Designer.cs">
+      <DependentUpon>Pitanje4.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormPocetna.resx">
+      <DependentUpon>FormPocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje1.resx">
+      <DependentUpon>Pitanje1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje2.resx">
+      <DependentUpon>Pitanje2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje3.resx">
+      <DependentUpon>Pitanje3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje4.resx">
+      <DependentUpon>Pitanje4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
