@@ -33,8 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +47,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FormPocetna.cs">
@@ -57,6 +61,36 @@
     </Compile>
     <Compile Include="Pitanje1.Designer.cs">
       <DependentUpon>Pitanje1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje15.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje15.Designer.cs">
+      <DependentUpon>Pitanje15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje14.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje14.Designer.cs">
+      <DependentUpon>Pitanje14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje13.Designer.cs">
+      <DependentUpon>Pitanje13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje12.Designer.cs">
+      <DependentUpon>Pitanje12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje11.Designer.cs">
+      <DependentUpon>Pitanje11.cs</DependentUpon>
     </Compile>
     <Compile Include="Pitanje2.cs">
       <SubType>UserControl</SubType>
@@ -76,6 +110,42 @@
     <Compile Include="Pitanje4.Designer.cs">
       <DependentUpon>Pitanje4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pitanje10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje10.Designer.cs">
+      <DependentUpon>Pitanje10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje9.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje9.Designer.cs">
+      <DependentUpon>Pitanje9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje8.Designer.cs">
+      <DependentUpon>Pitanje8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje7.Designer.cs">
+      <DependentUpon>Pitanje7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje6.Designer.cs">
+      <DependentUpon>Pitanje6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitanje5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pitanje5.Designer.cs">
+      <DependentUpon>Pitanje5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormPocetna.resx">
@@ -83,6 +153,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pitanje1.resx">
       <DependentUpon>Pitanje1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje15.resx">
+      <DependentUpon>Pitanje15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje14.resx">
+      <DependentUpon>Pitanje14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje13.resx">
+      <DependentUpon>Pitanje13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje12.resx">
+      <DependentUpon>Pitanje12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje11.resx">
+      <DependentUpon>Pitanje11.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pitanje2.resx">
       <DependentUpon>Pitanje2.cs</DependentUpon>
@@ -92,6 +177,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pitanje4.resx">
       <DependentUpon>Pitanje4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje10.resx">
+      <DependentUpon>Pitanje10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje9.resx">
+      <DependentUpon>Pitanje9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje8.resx">
+      <DependentUpon>Pitanje8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje7.resx">
+      <DependentUpon>Pitanje7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje6.resx">
+      <DependentUpon>Pitanje6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitanje5.resx">
+      <DependentUpon>Pitanje5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

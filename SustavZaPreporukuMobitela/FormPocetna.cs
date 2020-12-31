@@ -20,6 +20,17 @@ namespace SustavZaPreporukuMobitela
             pitanje21.Hide();
             pitanje31.Hide();
             pitanje41.Hide();
+            pitanje51.Hide();
+            pitanje61.Hide();
+            pitanje71.Hide();
+            pitanje81.Hide();
+            pitanje91.Hide();
+            pitanje101.Hide();
+            pitanje111.Hide();
+            pitanje121.Hide();
+            pitanje131.Hide();
+            pitanje141.Hide();
+            pitanje151.Hide();
 
         }
 

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SustavZaPreporukuMobitela
 {
-    public partial class Pitanje4 : UserControl
+    public partial class Pitanje5 : UserControl
     {
-        public Pitanje4()
+        public Pitanje5()
         {
             InitializeComponent();
         }
@@ -20,14 +20,14 @@ namespace SustavZaPreporukuMobitela
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Pitanje3 p = new Pitanje3();
+            Pitanje4 p = new Pitanje4();
             this.Parent.Controls.Add(p);
         }
 
         private void btnNext_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Pitanje5 p = new Pitanje5();
+            Pitanje6 p = new Pitanje6();
             this.Parent.Controls.Add(p);
         }
     }
