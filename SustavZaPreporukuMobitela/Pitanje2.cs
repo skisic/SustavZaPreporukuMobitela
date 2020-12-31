@@ -40,5 +40,27 @@ namespace SustavZaPreporukuMobitela
             Pitanje3 p = new Pitanje3();
             this.Parent.Controls.Add(p);
         }
+
+        private void btnBack_MouseLeave(object sender, EventArgs e)
+        {
+            btnBack.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+        }
+
+        private void btnBack_MouseEnter(object sender, EventArgs e)
+        {
+            btnBack.FlatAppearance.BorderColor = Color.FromArgb(5, 171, 166);
+            btnBack.FlatAppearance.MouseOverBackColor = Color.Transparent;
+        }
+
+        private void btnNext_MouseEnter(object sender, EventArgs e)
+        {
+            btnNext.FlatAppearance.BorderColor = Color.FromArgb(5, 171, 166);
+            btnNext.FlatAppearance.MouseOverBackColor = Color.Transparent;
+        }
+
+        private void btnNext_MouseLeave(object sender, EventArgs e)
+        {
+            btnNext.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+        }
     }
 }

@@ -42,9 +42,10 @@ namespace SustavZaPreporukuMobitela
             // radioRadio3
             // 
             this.radioRadio3.AutoSize = true;
-            this.radioRadio3.Location = new System.Drawing.Point(34, 190);
+            this.radioRadio3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioRadio3.Location = new System.Drawing.Point(67, 260);
             this.radioRadio3.Name = "radioRadio3";
-            this.radioRadio3.Size = new System.Drawing.Size(79, 17);
+            this.radioRadio3.Size = new System.Drawing.Size(101, 21);
             this.radioRadio3.TabIndex = 12;
             this.radioRadio3.TabStop = true;
             this.radioRadio3.Text = "Povremeno";
@@ -53,9 +54,10 @@ namespace SustavZaPreporukuMobitela
             // radioRadio2
             // 
             this.radioRadio2.AutoSize = true;
-            this.radioRadio2.Location = new System.Drawing.Point(34, 150);
+            this.radioRadio2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioRadio2.Location = new System.Drawing.Point(67, 220);
             this.radioRadio2.Name = "radioRadio2";
-            this.radioRadio2.Size = new System.Drawing.Size(58, 17);
+            this.radioRadio2.Size = new System.Drawing.Size(70, 21);
             this.radioRadio2.TabIndex = 11;
             this.radioRadio2.TabStop = true;
             this.radioRadio2.Text = "Rijetko";
@@ -64,9 +66,10 @@ namespace SustavZaPreporukuMobitela
             // radioRadio1
             // 
             this.radioRadio1.AutoSize = true;
-            this.radioRadio1.Location = new System.Drawing.Point(34, 110);
+            this.radioRadio1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioRadio1.Location = new System.Drawing.Point(67, 180);
             this.radioRadio1.Name = "radioRadio1";
-            this.radioRadio1.Size = new System.Drawing.Size(39, 17);
+            this.radioRadio1.Size = new System.Drawing.Size(44, 21);
             this.radioRadio1.TabIndex = 10;
             this.radioRadio1.TabStop = true;
             this.radioRadio1.Text = "Ne";
@@ -75,8 +78,10 @@ namespace SustavZaPreporukuMobitela
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 45);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(177, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(267, 22);
             this.label1.TabIndex = 13;
@@ -85,9 +90,10 @@ namespace SustavZaPreporukuMobitela
             // radioRadio4
             // 
             this.radioRadio4.AutoSize = true;
-            this.radioRadio4.Location = new System.Drawing.Point(34, 230);
+            this.radioRadio4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioRadio4.Location = new System.Drawing.Point(67, 300);
             this.radioRadio4.Name = "radioRadio4";
-            this.radioRadio4.Size = new System.Drawing.Size(52, 17);
+            this.radioRadio4.Size = new System.Drawing.Size(65, 21);
             this.radioRadio4.TabIndex = 14;
             this.radioRadio4.TabStop = true;
             this.radioRadio4.Text = "Često";
@@ -96,9 +102,10 @@ namespace SustavZaPreporukuMobitela
             // radioRadio5
             // 
             this.radioRadio5.AutoSize = true;
-            this.radioRadio5.Location = new System.Drawing.Point(34, 270);
+            this.radioRadio5.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioRadio5.Location = new System.Drawing.Point(67, 340);
             this.radioRadio5.Name = "radioRadio5";
-            this.radioRadio5.Size = new System.Drawing.Size(55, 17);
+            this.radioRadio5.Size = new System.Drawing.Size(64, 21);
             this.radioRadio5.TabIndex = 15;
             this.radioRadio5.TabStop = true;
             this.radioRadio5.Text = "Uvijek";
@@ -139,6 +146,7 @@ namespace SustavZaPreporukuMobitela
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.radioRadio5);

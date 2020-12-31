@@ -29,6 +29,7 @@ namespace SustavZaPreporukuMobitela
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pitanje6));
             this.radioFoto3 = new System.Windows.Forms.RadioButton();
             this.radioFoto2 = new System.Windows.Forms.RadioButton();
             this.radioFoto1 = new System.Windows.Forms.RadioButton();
@@ -37,14 +38,16 @@ namespace SustavZaPreporukuMobitela
             this.radioFoto5 = new System.Windows.Forms.RadioButton();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // radioFoto3
             // 
             this.radioFoto3.AutoSize = true;
-            this.radioFoto3.Location = new System.Drawing.Point(34, 190);
+            this.radioFoto3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioFoto3.Location = new System.Drawing.Point(67, 260);
             this.radioFoto3.Name = "radioFoto3";
-            this.radioFoto3.Size = new System.Drawing.Size(79, 17);
+            this.radioFoto3.Size = new System.Drawing.Size(101, 21);
             this.radioFoto3.TabIndex = 12;
             this.radioFoto3.TabStop = true;
             this.radioFoto3.Text = "Povremeno";
@@ -53,9 +56,10 @@ namespace SustavZaPreporukuMobitela
             // radioFoto2
             // 
             this.radioFoto2.AutoSize = true;
-            this.radioFoto2.Location = new System.Drawing.Point(34, 150);
+            this.radioFoto2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioFoto2.Location = new System.Drawing.Point(67, 220);
             this.radioFoto2.Name = "radioFoto2";
-            this.radioFoto2.Size = new System.Drawing.Size(58, 17);
+            this.radioFoto2.Size = new System.Drawing.Size(70, 21);
             this.radioFoto2.TabIndex = 11;
             this.radioFoto2.TabStop = true;
             this.radioFoto2.Text = "Rijetko";
@@ -64,9 +68,10 @@ namespace SustavZaPreporukuMobitela
             // radioFoto1
             // 
             this.radioFoto1.AutoSize = true;
-            this.radioFoto1.Location = new System.Drawing.Point(34, 110);
+            this.radioFoto1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioFoto1.Location = new System.Drawing.Point(67, 180);
             this.radioFoto1.Name = "radioFoto1";
-            this.radioFoto1.Size = new System.Drawing.Size(39, 17);
+            this.radioFoto1.Size = new System.Drawing.Size(44, 21);
             this.radioFoto1.TabIndex = 10;
             this.radioFoto1.TabStop = true;
             this.radioFoto1.Text = "Ne";
@@ -75,8 +80,10 @@ namespace SustavZaPreporukuMobitela
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 45);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(161, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(341, 22);
             this.label1.TabIndex = 13;
@@ -85,9 +92,10 @@ namespace SustavZaPreporukuMobitela
             // radioFoto4
             // 
             this.radioFoto4.AutoSize = true;
-            this.radioFoto4.Location = new System.Drawing.Point(34, 230);
+            this.radioFoto4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioFoto4.Location = new System.Drawing.Point(67, 300);
             this.radioFoto4.Name = "radioFoto4";
-            this.radioFoto4.Size = new System.Drawing.Size(52, 17);
+            this.radioFoto4.Size = new System.Drawing.Size(65, 21);
             this.radioFoto4.TabIndex = 14;
             this.radioFoto4.TabStop = true;
             this.radioFoto4.Text = "Često";
@@ -96,9 +104,10 @@ namespace SustavZaPreporukuMobitela
             // radioFoto5
             // 
             this.radioFoto5.AutoSize = true;
-            this.radioFoto5.Location = new System.Drawing.Point(34, 270);
+            this.radioFoto5.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioFoto5.Location = new System.Drawing.Point(67, 340);
             this.radioFoto5.Name = "radioFoto5";
-            this.radioFoto5.Size = new System.Drawing.Size(55, 17);
+            this.radioFoto5.Size = new System.Drawing.Size(64, 21);
             this.radioFoto5.TabIndex = 15;
             this.radioFoto5.TabStop = true;
             this.radioFoto5.Text = "Uvijek";
@@ -134,11 +143,25 @@ namespace SustavZaPreporukuMobitela
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(64, 93);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(491, 45);
+            this.label3.TabIndex = 18;
+            this.label3.Text = resources.GetString("label3.Text");
+            // 
             // Pitanje6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.radioFoto5);
@@ -163,5 +186,6 @@ namespace SustavZaPreporukuMobitela
         private System.Windows.Forms.RadioButton radioFoto5;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Label label3;
     }
 }

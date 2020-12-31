@@ -34,13 +34,16 @@
             this.radioOSiOS = new System.Windows.Forms.RadioButton();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 45);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(159, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(328, 22);
             this.label1.TabIndex = 2;
@@ -49,9 +52,10 @@
             // radioOSWindows
             // 
             this.radioOSWindows.AutoSize = true;
-            this.radioOSWindows.Location = new System.Drawing.Point(34, 190);
+            this.radioOSWindows.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioOSWindows.Location = new System.Drawing.Point(67, 260);
             this.radioOSWindows.Name = "radioOSWindows";
-            this.radioOSWindows.Size = new System.Drawing.Size(69, 17);
+            this.radioOSWindows.Size = new System.Drawing.Size(87, 21);
             this.radioOSWindows.TabIndex = 9;
             this.radioOSWindows.TabStop = true;
             this.radioOSWindows.Text = "Windows";
@@ -60,9 +64,10 @@
             // radioOSAndroid
             // 
             this.radioOSAndroid.AutoSize = true;
-            this.radioOSAndroid.Location = new System.Drawing.Point(34, 150);
+            this.radioOSAndroid.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioOSAndroid.Location = new System.Drawing.Point(67, 220);
             this.radioOSAndroid.Name = "radioOSAndroid";
-            this.radioOSAndroid.Size = new System.Drawing.Size(61, 17);
+            this.radioOSAndroid.Size = new System.Drawing.Size(75, 21);
             this.radioOSAndroid.TabIndex = 8;
             this.radioOSAndroid.TabStop = true;
             this.radioOSAndroid.Text = "Android";
@@ -71,9 +76,10 @@
             // radioOSiOS
             // 
             this.radioOSiOS.AutoSize = true;
-            this.radioOSiOS.Location = new System.Drawing.Point(34, 110);
+            this.radioOSiOS.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioOSiOS.Location = new System.Drawing.Point(67, 180);
             this.radioOSiOS.Name = "radioOSiOS";
-            this.radioOSiOS.Size = new System.Drawing.Size(42, 17);
+            this.radioOSiOS.Size = new System.Drawing.Size(51, 21);
             this.radioOSiOS.TabIndex = 7;
             this.radioOSiOS.TabStop = true;
             this.radioOSiOS.Text = "iOS";
@@ -109,11 +115,25 @@
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Teal;
+            this.label2.Location = new System.Drawing.Point(64, 93);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 15);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "To do...";
+            // 
             // Pitanje4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.radioOSWindows);
@@ -135,5 +155,6 @@
         private System.Windows.Forms.RadioButton radioOSiOS;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Label label2;
     }
 }

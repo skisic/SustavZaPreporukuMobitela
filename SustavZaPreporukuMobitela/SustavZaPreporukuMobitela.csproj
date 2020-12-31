@@ -204,6 +204,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -217,6 +218,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basic_theme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_vacation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_vacation1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\android-ios-windows-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_vacation2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_usage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

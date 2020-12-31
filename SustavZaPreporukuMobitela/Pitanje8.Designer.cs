@@ -37,14 +37,16 @@ namespace SustavZaPreporukuMobitela
             this.radioFilm5 = new System.Windows.Forms.RadioButton();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // radioFilm3
             // 
             this.radioFilm3.AutoSize = true;
-            this.radioFilm3.Location = new System.Drawing.Point(34, 190);
+            this.radioFilm3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioFilm3.Location = new System.Drawing.Point(65, 260);
             this.radioFilm3.Name = "radioFilm3";
-            this.radioFilm3.Size = new System.Drawing.Size(79, 17);
+            this.radioFilm3.Size = new System.Drawing.Size(101, 21);
             this.radioFilm3.TabIndex = 12;
             this.radioFilm3.TabStop = true;
             this.radioFilm3.Text = "Povremeno";
@@ -53,9 +55,10 @@ namespace SustavZaPreporukuMobitela
             // radioFilm2
             // 
             this.radioFilm2.AutoSize = true;
-            this.radioFilm2.Location = new System.Drawing.Point(34, 150);
+            this.radioFilm2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioFilm2.Location = new System.Drawing.Point(65, 220);
             this.radioFilm2.Name = "radioFilm2";
-            this.radioFilm2.Size = new System.Drawing.Size(58, 17);
+            this.radioFilm2.Size = new System.Drawing.Size(70, 21);
             this.radioFilm2.TabIndex = 11;
             this.radioFilm2.TabStop = true;
             this.radioFilm2.Text = "Rijetko";
@@ -64,9 +67,10 @@ namespace SustavZaPreporukuMobitela
             // radioFilm1
             // 
             this.radioFilm1.AutoSize = true;
-            this.radioFilm1.Location = new System.Drawing.Point(34, 110);
+            this.radioFilm1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioFilm1.Location = new System.Drawing.Point(67, 180);
             this.radioFilm1.Name = "radioFilm1";
-            this.radioFilm1.Size = new System.Drawing.Size(39, 17);
+            this.radioFilm1.Size = new System.Drawing.Size(44, 21);
             this.radioFilm1.TabIndex = 10;
             this.radioFilm1.TabStop = true;
             this.radioFilm1.Text = "Ne";
@@ -75,8 +79,10 @@ namespace SustavZaPreporukuMobitela
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 45);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(61, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(541, 22);
             this.label1.TabIndex = 13;
@@ -85,9 +91,10 @@ namespace SustavZaPreporukuMobitela
             // radioFilm4
             // 
             this.radioFilm4.AutoSize = true;
-            this.radioFilm4.Location = new System.Drawing.Point(34, 230);
+            this.radioFilm4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioFilm4.Location = new System.Drawing.Point(65, 300);
             this.radioFilm4.Name = "radioFilm4";
-            this.radioFilm4.Size = new System.Drawing.Size(52, 17);
+            this.radioFilm4.Size = new System.Drawing.Size(65, 21);
             this.radioFilm4.TabIndex = 14;
             this.radioFilm4.TabStop = true;
             this.radioFilm4.Text = "Često";
@@ -96,9 +103,10 @@ namespace SustavZaPreporukuMobitela
             // radioFilm5
             // 
             this.radioFilm5.AutoSize = true;
-            this.radioFilm5.Location = new System.Drawing.Point(34, 270);
+            this.radioFilm5.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioFilm5.Location = new System.Drawing.Point(65, 340);
             this.radioFilm5.Name = "radioFilm5";
-            this.radioFilm5.Size = new System.Drawing.Size(55, 17);
+            this.radioFilm5.Size = new System.Drawing.Size(64, 21);
             this.radioFilm5.TabIndex = 15;
             this.radioFilm5.TabStop = true;
             this.radioFilm5.Text = "Uvijek";
@@ -134,11 +142,25 @@ namespace SustavZaPreporukuMobitela
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(64, 93);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 15);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "To do...";
+            // 
             // Pitanje8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.radioFilm5);
@@ -163,5 +185,6 @@ namespace SustavZaPreporukuMobitela
         private System.Windows.Forms.RadioButton radioFilm5;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Label label3;
     }
 }

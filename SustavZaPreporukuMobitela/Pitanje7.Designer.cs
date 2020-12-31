@@ -37,14 +37,16 @@ namespace SustavZaPreporukuMobitela
             this.radioGaming5 = new System.Windows.Forms.RadioButton();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // radioGaming3
             // 
             this.radioGaming3.AutoSize = true;
-            this.radioGaming3.Location = new System.Drawing.Point(34, 190);
+            this.radioGaming3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioGaming3.Location = new System.Drawing.Point(67, 260);
             this.radioGaming3.Name = "radioGaming3";
-            this.radioGaming3.Size = new System.Drawing.Size(79, 17);
+            this.radioGaming3.Size = new System.Drawing.Size(101, 21);
             this.radioGaming3.TabIndex = 12;
             this.radioGaming3.TabStop = true;
             this.radioGaming3.Text = "Povremeno";
@@ -53,9 +55,10 @@ namespace SustavZaPreporukuMobitela
             // radioGaming2
             // 
             this.radioGaming2.AutoSize = true;
-            this.radioGaming2.Location = new System.Drawing.Point(34, 150);
+            this.radioGaming2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioGaming2.Location = new System.Drawing.Point(67, 220);
             this.radioGaming2.Name = "radioGaming2";
-            this.radioGaming2.Size = new System.Drawing.Size(58, 17);
+            this.radioGaming2.Size = new System.Drawing.Size(70, 21);
             this.radioGaming2.TabIndex = 11;
             this.radioGaming2.TabStop = true;
             this.radioGaming2.Text = "Rijetko";
@@ -64,9 +67,10 @@ namespace SustavZaPreporukuMobitela
             // radioGaming1
             // 
             this.radioGaming1.AutoSize = true;
-            this.radioGaming1.Location = new System.Drawing.Point(34, 110);
+            this.radioGaming1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioGaming1.Location = new System.Drawing.Point(67, 180);
             this.radioGaming1.Name = "radioGaming1";
-            this.radioGaming1.Size = new System.Drawing.Size(39, 17);
+            this.radioGaming1.Size = new System.Drawing.Size(44, 21);
             this.radioGaming1.TabIndex = 10;
             this.radioGaming1.TabStop = true;
             this.radioGaming1.Text = "Ne";
@@ -75,8 +79,10 @@ namespace SustavZaPreporukuMobitela
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 45);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(155, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(338, 22);
             this.label1.TabIndex = 13;
@@ -85,9 +91,10 @@ namespace SustavZaPreporukuMobitela
             // radioGaming4
             // 
             this.radioGaming4.AutoSize = true;
-            this.radioGaming4.Location = new System.Drawing.Point(34, 230);
+            this.radioGaming4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioGaming4.Location = new System.Drawing.Point(67, 300);
             this.radioGaming4.Name = "radioGaming4";
-            this.radioGaming4.Size = new System.Drawing.Size(52, 17);
+            this.radioGaming4.Size = new System.Drawing.Size(65, 21);
             this.radioGaming4.TabIndex = 14;
             this.radioGaming4.TabStop = true;
             this.radioGaming4.Text = "Često";
@@ -96,9 +103,10 @@ namespace SustavZaPreporukuMobitela
             // radioGaming5
             // 
             this.radioGaming5.AutoSize = true;
-            this.radioGaming5.Location = new System.Drawing.Point(34, 270);
+            this.radioGaming5.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioGaming5.Location = new System.Drawing.Point(67, 340);
             this.radioGaming5.Name = "radioGaming5";
-            this.radioGaming5.Size = new System.Drawing.Size(55, 17);
+            this.radioGaming5.Size = new System.Drawing.Size(64, 21);
             this.radioGaming5.TabIndex = 15;
             this.radioGaming5.TabStop = true;
             this.radioGaming5.Text = "Uvijek";
@@ -134,11 +142,25 @@ namespace SustavZaPreporukuMobitela
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(64, 93);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 15);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "To do...";
+            // 
             // Pitanje7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.radioGaming5);
@@ -163,5 +185,6 @@ namespace SustavZaPreporukuMobitela
         private System.Windows.Forms.RadioButton radioGaming5;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Label label3;
     }
 }
