@@ -29,18 +29,20 @@ namespace SustavZaPreporukuMobitela
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pitanje12));
             this.radioBlueNe = new System.Windows.Forms.RadioButton();
             this.radioBlueDa = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // radioBlueNe
             // 
             this.radioBlueNe.AutoSize = true;
             this.radioBlueNe.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioBlueNe.Location = new System.Drawing.Point(67, 220);
+            this.radioBlueNe.Location = new System.Drawing.Point(67, 231);
             this.radioBlueNe.Name = "radioBlueNe";
             this.radioBlueNe.Size = new System.Drawing.Size(44, 21);
             this.radioBlueNe.TabIndex = 11;
@@ -53,7 +55,7 @@ namespace SustavZaPreporukuMobitela
             // 
             this.radioBlueDa.AutoSize = true;
             this.radioBlueDa.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioBlueDa.Location = new System.Drawing.Point(67, 180);
+            this.radioBlueDa.Location = new System.Drawing.Point(67, 191);
             this.radioBlueDa.Name = "radioBlueDa";
             this.radioBlueDa.Size = new System.Drawing.Size(45, 21);
             this.radioBlueDa.TabIndex = 10;
@@ -108,12 +110,24 @@ namespace SustavZaPreporukuMobitela
             this.btnNext.MouseEnter += new System.EventHandler(this.btnNext_MouseEnter);
             this.btnNext.MouseLeave += new System.EventHandler(this.btnNext_MouseLeave);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.ForeColor = System.Drawing.Color.Teal;
+            this.label2.Location = new System.Drawing.Point(64, 110);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(484, 45);
+            this.label2.TabIndex = 18;
+            this.label2.Text = resources.GetString("label2.Text");
+            // 
             // Pitanje12
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.label1);
@@ -132,5 +146,6 @@ namespace SustavZaPreporukuMobitela
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Label label2;
     }
 }

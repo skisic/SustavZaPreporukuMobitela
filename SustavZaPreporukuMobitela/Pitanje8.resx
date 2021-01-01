@@ -117,4 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Ako volite slušati glazbu i gledati filmove na svom uređaju potreban Vam je audio priključak
+za spajanje slušalica kako bi mogli na miru i bez ometanja slušati glazbu. Ponekad ćete
+i htjeti slušati glazbu ili pogledati film s društvom i stoga takav uređaj ima i kvalitetan zvučnik.</value>
+  </data>
 </root>

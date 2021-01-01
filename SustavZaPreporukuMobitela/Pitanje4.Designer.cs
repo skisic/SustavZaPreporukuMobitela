@@ -130,9 +130,9 @@
             this.label2.ForeColor = System.Drawing.Color.Teal;
             this.label2.Location = new System.Drawing.Point(64, 93);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 15);
+            this.label2.Size = new System.Drawing.Size(399, 15);
             this.label2.TabIndex = 12;
-            this.label2.Text = "To do...";
+            this.label2.Text = "Tri su najpopularnija operacijska sustava, odaberite koji je Vaš omiljeni!";
             // 
             // Pitanje4
             // 

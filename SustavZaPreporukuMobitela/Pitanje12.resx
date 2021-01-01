@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Većina uređaja posjeduje bluetooth, ali postoje i oni bez njega. Ukoliko Vam je potreban
+prijenos podataka između uređaja ili posjedujete druge dodatke za svoj uređaj
+kao što je pametni sat tada će sustav preporučiti uređaj koji  posjeduje bluetooth.
+</value>
+  </data>
 </root>

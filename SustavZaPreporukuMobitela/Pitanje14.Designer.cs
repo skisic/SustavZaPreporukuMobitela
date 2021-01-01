@@ -29,12 +29,14 @@ namespace SustavZaPreporukuMobitela
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pitanje14));
             this.radioEdgeNe = new System.Windows.Forms.RadioButton();
             this.radioEdgeDa = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.radioEdgeSvejedno = new System.Windows.Forms.RadioButton();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // radioEdgeNe
@@ -123,12 +125,24 @@ namespace SustavZaPreporukuMobitela
             this.radioEdgeSvejedno.UseVisualStyleBackColor = true;
             this.radioEdgeSvejedno.CheckedChanged += new System.EventHandler(this.radioEdgeSvejedno_CheckedChanged);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.ForeColor = System.Drawing.Color.Teal;
+            this.label2.Location = new System.Drawing.Point(64, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(505, 45);
+            this.label2.TabIndex = 19;
+            this.label2.Text = resources.GetString("label2.Text");
+            // 
             // Pitanje14
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.radioEdgeSvejedno);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
@@ -149,5 +163,6 @@ namespace SustavZaPreporukuMobitela
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.RadioButton radioEdgeSvejedno;
+        private System.Windows.Forms.Label label2;
     }
 }

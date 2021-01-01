@@ -117,4 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Ukoliko želite uređaj koristiti na dulji period svakako se preporuča kupovina novijeg uređaja, ali
+samim time je i cijena veća ili su performanse samog uređaja slabije. Druga opcija je stariji
+model koji možete kupiti jeftinije, ali time je očekivani vijek uređaja nešto kraći. Ovisno o
+Vašem odabiru napravit ćemo preporuku.
+</value>
+  </data>
 </root>

@@ -29,6 +29,7 @@ namespace SustavZaPreporukuMobitela
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pitanje8));
             this.radioFilm3 = new System.Windows.Forms.RadioButton();
             this.radioFilm2 = new System.Windows.Forms.RadioButton();
             this.radioFilm1 = new System.Windows.Forms.RadioButton();
@@ -159,9 +160,9 @@ namespace SustavZaPreporukuMobitela
             this.label3.ForeColor = System.Drawing.Color.Teal;
             this.label3.Location = new System.Drawing.Point(64, 93);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 15);
+            this.label3.Size = new System.Drawing.Size(509, 45);
             this.label3.TabIndex = 20;
-            this.label3.Text = "To do...";
+            this.label3.Text = resources.GetString("label3.Text");
             // 
             // Pitanje8
             // 
