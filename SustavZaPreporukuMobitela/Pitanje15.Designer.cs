@@ -40,30 +40,36 @@ namespace SustavZaPreporukuMobitela
             // radioModelStari
             // 
             this.radioModelStari.AutoSize = true;
-            this.radioModelStari.Location = new System.Drawing.Point(34, 150);
+            this.radioModelStari.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioModelStari.Location = new System.Drawing.Point(67, 220);
             this.radioModelStari.Name = "radioModelStari";
-            this.radioModelStari.Size = new System.Drawing.Size(107, 17);
+            this.radioModelStari.Size = new System.Drawing.Size(143, 21);
             this.radioModelStari.TabIndex = 11;
             this.radioModelStari.TabStop = true;
             this.radioModelStari.Text = "Želim stariji model";
             this.radioModelStari.UseVisualStyleBackColor = true;
+            this.radioModelStari.CheckedChanged += new System.EventHandler(this.radioModelStari_CheckedChanged);
             // 
             // radioModelNovi
             // 
             this.radioModelNovi.AutoSize = true;
-            this.radioModelNovi.Location = new System.Drawing.Point(34, 110);
+            this.radioModelNovi.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioModelNovi.Location = new System.Drawing.Point(67, 180);
             this.radioModelNovi.Name = "radioModelNovi";
-            this.radioModelNovi.Size = new System.Drawing.Size(122, 17);
+            this.radioModelNovi.Size = new System.Drawing.Size(160, 21);
             this.radioModelNovi.TabIndex = 10;
             this.radioModelNovi.TabStop = true;
             this.radioModelNovi.Text = "Želim najnoviji model";
             this.radioModelNovi.UseVisualStyleBackColor = true;
+            this.radioModelNovi.CheckedChanged += new System.EventHandler(this.radioModelNovi_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 45);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(66, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(523, 22);
             this.label1.TabIndex = 13;
@@ -83,6 +89,8 @@ namespace SustavZaPreporukuMobitela
             this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.MouseEnter += new System.EventHandler(this.btnBack_MouseEnter);
+            this.btnBack.MouseLeave += new System.EventHandler(this.btnBack_MouseLeave);
             // 
             // btnNext
             // 
@@ -98,23 +106,28 @@ namespace SustavZaPreporukuMobitela
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnNext.MouseEnter += new System.EventHandler(this.btnNext_MouseEnter);
+            this.btnNext.MouseLeave += new System.EventHandler(this.btnNext_MouseLeave);
             // 
             // radioModelSvejedno
             // 
             this.radioModelSvejedno.AutoSize = true;
-            this.radioModelSvejedno.Location = new System.Drawing.Point(34, 190);
+            this.radioModelSvejedno.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioModelSvejedno.Location = new System.Drawing.Point(67, 260);
             this.radioModelSvejedno.Name = "radioModelSvejedno";
-            this.radioModelSvejedno.Size = new System.Drawing.Size(70, 17);
+            this.radioModelSvejedno.Size = new System.Drawing.Size(86, 21);
             this.radioModelSvejedno.TabIndex = 18;
             this.radioModelSvejedno.TabStop = true;
             this.radioModelSvejedno.Text = "Svejedno";
             this.radioModelSvejedno.UseVisualStyleBackColor = true;
+            this.radioModelSvejedno.CheckedChanged += new System.EventHandler(this.radioModelSvejedno_CheckedChanged);
             // 
             // Pitanje15
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
             this.Controls.Add(this.radioModelSvejedno);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);

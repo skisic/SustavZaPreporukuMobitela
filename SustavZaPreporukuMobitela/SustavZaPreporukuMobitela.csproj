@@ -50,6 +50,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BazaOdgovora.cs" />
     <Compile Include="FormPocetna.cs">
       <SubType>Form</SubType>
     </Compile>

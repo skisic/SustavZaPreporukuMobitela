@@ -60,6 +60,7 @@
             this.radioOSWindows.TabStop = true;
             this.radioOSWindows.Text = "Windows";
             this.radioOSWindows.UseVisualStyleBackColor = true;
+            this.radioOSWindows.CheckedChanged += new System.EventHandler(this.radioOSWindows_CheckedChanged);
             // 
             // radioOSAndroid
             // 
@@ -72,6 +73,7 @@
             this.radioOSAndroid.TabStop = true;
             this.radioOSAndroid.Text = "Android";
             this.radioOSAndroid.UseVisualStyleBackColor = true;
+            this.radioOSAndroid.CheckedChanged += new System.EventHandler(this.radioOSAndroid_CheckedChanged);
             // 
             // radioOSiOS
             // 
@@ -84,6 +86,7 @@
             this.radioOSiOS.TabStop = true;
             this.radioOSiOS.Text = "iOS";
             this.radioOSiOS.UseVisualStyleBackColor = true;
+            this.radioOSiOS.CheckedChanged += new System.EventHandler(this.radioOSiOS_CheckedChanged);
             // 
             // btnBack
             // 
@@ -99,6 +102,8 @@
             this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.MouseEnter += new System.EventHandler(this.btnBack_MouseEnter);
+            this.btnBack.MouseLeave += new System.EventHandler(this.btnBack_MouseLeave);
             // 
             // btnNext
             // 
@@ -114,6 +119,8 @@
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnNext.MouseEnter += new System.EventHandler(this.btnNext_MouseEnter);
+            this.btnNext.MouseLeave += new System.EventHandler(this.btnNext_MouseLeave);
             // 
             // label2
             // 

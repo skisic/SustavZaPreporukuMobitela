@@ -40,34 +40,41 @@ namespace SustavZaPreporukuMobitela
             // radioEdgeNe
             // 
             this.radioEdgeNe.AutoSize = true;
-            this.radioEdgeNe.Location = new System.Drawing.Point(34, 150);
+            this.radioEdgeNe.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioEdgeNe.Location = new System.Drawing.Point(67, 220);
             this.radioEdgeNe.Name = "radioEdgeNe";
-            this.radioEdgeNe.Size = new System.Drawing.Size(39, 17);
+            this.radioEdgeNe.Size = new System.Drawing.Size(44, 21);
             this.radioEdgeNe.TabIndex = 11;
             this.radioEdgeNe.TabStop = true;
             this.radioEdgeNe.Text = "Ne";
             this.radioEdgeNe.UseVisualStyleBackColor = true;
+            this.radioEdgeNe.CheckedChanged += new System.EventHandler(this.radioEdgeNe_CheckedChanged);
             // 
             // radioEdgeDa
             // 
             this.radioEdgeDa.AutoSize = true;
-            this.radioEdgeDa.Location = new System.Drawing.Point(34, 110);
+            this.radioEdgeDa.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioEdgeDa.Location = new System.Drawing.Point(67, 180);
             this.radioEdgeDa.Name = "radioEdgeDa";
-            this.radioEdgeDa.Size = new System.Drawing.Size(39, 17);
+            this.radioEdgeDa.Size = new System.Drawing.Size(45, 21);
             this.radioEdgeDa.TabIndex = 10;
             this.radioEdgeDa.TabStop = true;
             this.radioEdgeDa.Text = "Da";
             this.radioEdgeDa.UseVisualStyleBackColor = true;
+            this.radioEdgeDa.CheckedChanged += new System.EventHandler(this.radioEdgeDa_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 45);
+            this.label1.ForeColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(190, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 22);
             this.label1.TabIndex = 13;
             this.label1.Text = "Zelite li zaobljeni ekran?";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnBack
             // 
@@ -83,6 +90,8 @@ namespace SustavZaPreporukuMobitela
             this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.MouseEnter += new System.EventHandler(this.btnBack_MouseEnter);
+            this.btnBack.MouseLeave += new System.EventHandler(this.btnBack_MouseLeave);
             // 
             // btnNext
             // 
@@ -98,23 +107,28 @@ namespace SustavZaPreporukuMobitela
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnNext.MouseEnter += new System.EventHandler(this.btnNext_MouseEnter);
+            this.btnNext.MouseLeave += new System.EventHandler(this.btnNext_MouseLeave);
             // 
             // radioEdgeSvejedno
             // 
             this.radioEdgeSvejedno.AutoSize = true;
-            this.radioEdgeSvejedno.Location = new System.Drawing.Point(34, 190);
+            this.radioEdgeSvejedno.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioEdgeSvejedno.Location = new System.Drawing.Point(67, 260);
             this.radioEdgeSvejedno.Name = "radioEdgeSvejedno";
-            this.radioEdgeSvejedno.Size = new System.Drawing.Size(70, 17);
+            this.radioEdgeSvejedno.Size = new System.Drawing.Size(86, 21);
             this.radioEdgeSvejedno.TabIndex = 18;
             this.radioEdgeSvejedno.TabStop = true;
             this.radioEdgeSvejedno.Text = "Svejedno";
             this.radioEdgeSvejedno.UseVisualStyleBackColor = true;
+            this.radioEdgeSvejedno.CheckedChanged += new System.EventHandler(this.radioEdgeSvejedno_CheckedChanged);
             // 
             // Pitanje14
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
             this.Controls.Add(this.radioEdgeSvejedno);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);

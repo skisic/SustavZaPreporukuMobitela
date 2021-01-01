@@ -66,6 +66,7 @@
             this.radioKorist1h.TabStop = true;
             this.radioKorist1h.Text = "Manje od 1h dnevno";
             this.radioKorist1h.UseVisualStyleBackColor = true;
+            this.radioKorist1h.CheckedChanged += new System.EventHandler(this.radioKorist1h_CheckedChanged);
             // 
             // radioKorist12h
             // 
@@ -78,6 +79,7 @@
             this.radioKorist12h.TabStop = true;
             this.radioKorist12h.Text = "1h - 2h dnevno";
             this.radioKorist12h.UseVisualStyleBackColor = true;
+            this.radioKorist12h.CheckedChanged += new System.EventHandler(this.radioKorist12h_CheckedChanged);
             // 
             // radioKorist24h
             // 
@@ -90,6 +92,7 @@
             this.radioKorist24h.TabStop = true;
             this.radioKorist24h.Text = "2h -  4h dnevno";
             this.radioKorist24h.UseVisualStyleBackColor = true;
+            this.radioKorist24h.CheckedChanged += new System.EventHandler(this.radioKorist24h_CheckedChanged);
             // 
             // radioKorist48h
             // 
@@ -102,6 +105,7 @@
             this.radioKorist48h.TabStop = true;
             this.radioKorist48h.Text = "4h - 8h dnevno";
             this.radioKorist48h.UseVisualStyleBackColor = true;
+            this.radioKorist48h.CheckedChanged += new System.EventHandler(this.radioKorist48h_CheckedChanged);
             // 
             // radioKorist8h
             // 
@@ -114,6 +118,7 @@
             this.radioKorist8h.TabStop = true;
             this.radioKorist8h.Text = "Više od 8h dnevno";
             this.radioKorist8h.UseVisualStyleBackColor = true;
+            this.radioKorist8h.CheckedChanged += new System.EventHandler(this.radioKorist8h_CheckedChanged);
             // 
             // btnBack
             // 
@@ -129,6 +134,8 @@
             this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.MouseEnter += new System.EventHandler(this.btnBack_MouseEnter);
+            this.btnBack.MouseLeave += new System.EventHandler(this.btnBack_MouseLeave);
             // 
             // btnNext
             // 
@@ -144,6 +151,8 @@
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnNext.MouseEnter += new System.EventHandler(this.btnNext_MouseEnter);
+            this.btnNext.MouseLeave += new System.EventHandler(this.btnNext_MouseLeave);
             // 
             // label2
             // 

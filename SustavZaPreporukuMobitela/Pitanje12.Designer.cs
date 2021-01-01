@@ -39,30 +39,36 @@ namespace SustavZaPreporukuMobitela
             // radioBlueNe
             // 
             this.radioBlueNe.AutoSize = true;
-            this.radioBlueNe.Location = new System.Drawing.Point(34, 150);
+            this.radioBlueNe.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioBlueNe.Location = new System.Drawing.Point(67, 220);
             this.radioBlueNe.Name = "radioBlueNe";
-            this.radioBlueNe.Size = new System.Drawing.Size(39, 17);
+            this.radioBlueNe.Size = new System.Drawing.Size(44, 21);
             this.radioBlueNe.TabIndex = 11;
             this.radioBlueNe.TabStop = true;
             this.radioBlueNe.Text = "Ne";
             this.radioBlueNe.UseVisualStyleBackColor = true;
+            this.radioBlueNe.CheckedChanged += new System.EventHandler(this.radioBlueNe_CheckedChanged);
             // 
             // radioBlueDa
             // 
             this.radioBlueDa.AutoSize = true;
-            this.radioBlueDa.Location = new System.Drawing.Point(34, 110);
+            this.radioBlueDa.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioBlueDa.Location = new System.Drawing.Point(67, 180);
             this.radioBlueDa.Name = "radioBlueDa";
-            this.radioBlueDa.Size = new System.Drawing.Size(39, 17);
+            this.radioBlueDa.Size = new System.Drawing.Size(45, 21);
             this.radioBlueDa.TabIndex = 10;
             this.radioBlueDa.TabStop = true;
             this.radioBlueDa.Text = "Da";
             this.radioBlueDa.UseVisualStyleBackColor = true;
+            this.radioBlueDa.CheckedChanged += new System.EventHandler(this.radioBlueDa_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 45);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(120, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(392, 22);
             this.label1.TabIndex = 13;
@@ -82,6 +88,8 @@ namespace SustavZaPreporukuMobitela
             this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.MouseEnter += new System.EventHandler(this.btnBack_MouseEnter);
+            this.btnBack.MouseLeave += new System.EventHandler(this.btnBack_MouseLeave);
             // 
             // btnNext
             // 
@@ -97,12 +105,15 @@ namespace SustavZaPreporukuMobitela
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnNext.MouseEnter += new System.EventHandler(this.btnNext_MouseEnter);
+            this.btnNext.MouseLeave += new System.EventHandler(this.btnNext_MouseLeave);
             // 
             // Pitanje12
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.label1);

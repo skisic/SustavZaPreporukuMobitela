@@ -36,6 +36,7 @@ namespace SustavZaPreporukuMobitela
 
         private void btnNext_Click(object sender, EventArgs e)
         {
+            BazaOdgovora.budzet = trackBarBudzet.Value;
             this.Hide();
             Pitanje3 p = new Pitanje3();
             this.Parent.Controls.Add(p);

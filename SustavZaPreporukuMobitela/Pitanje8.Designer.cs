@@ -51,6 +51,7 @@ namespace SustavZaPreporukuMobitela
             this.radioFilm3.TabStop = true;
             this.radioFilm3.Text = "Povremeno";
             this.radioFilm3.UseVisualStyleBackColor = true;
+            this.radioFilm3.CheckedChanged += new System.EventHandler(this.radioFilm3_CheckedChanged);
             // 
             // radioFilm2
             // 
@@ -63,6 +64,7 @@ namespace SustavZaPreporukuMobitela
             this.radioFilm2.TabStop = true;
             this.radioFilm2.Text = "Rijetko";
             this.radioFilm2.UseVisualStyleBackColor = true;
+            this.radioFilm2.CheckedChanged += new System.EventHandler(this.radioFilm2_CheckedChanged);
             // 
             // radioFilm1
             // 
@@ -75,6 +77,7 @@ namespace SustavZaPreporukuMobitela
             this.radioFilm1.TabStop = true;
             this.radioFilm1.Text = "Ne";
             this.radioFilm1.UseVisualStyleBackColor = true;
+            this.radioFilm1.CheckedChanged += new System.EventHandler(this.radioFilm1_CheckedChanged);
             // 
             // label1
             // 
@@ -99,6 +102,7 @@ namespace SustavZaPreporukuMobitela
             this.radioFilm4.TabStop = true;
             this.radioFilm4.Text = "Često";
             this.radioFilm4.UseVisualStyleBackColor = true;
+            this.radioFilm4.CheckedChanged += new System.EventHandler(this.radioFilm4_CheckedChanged);
             // 
             // radioFilm5
             // 
@@ -111,6 +115,7 @@ namespace SustavZaPreporukuMobitela
             this.radioFilm5.TabStop = true;
             this.radioFilm5.Text = "Uvijek";
             this.radioFilm5.UseVisualStyleBackColor = true;
+            this.radioFilm5.CheckedChanged += new System.EventHandler(this.radioFilm5_CheckedChanged);
             // 
             // btnBack
             // 
@@ -126,6 +131,8 @@ namespace SustavZaPreporukuMobitela
             this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.MouseEnter += new System.EventHandler(this.btnBack_MouseEnter);
+            this.btnBack.MouseLeave += new System.EventHandler(this.btnBack_MouseLeave);
             // 
             // btnNext
             // 
@@ -141,6 +148,8 @@ namespace SustavZaPreporukuMobitela
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnNext.MouseEnter += new System.EventHandler(this.btnNext_MouseEnter);
+            this.btnNext.MouseLeave += new System.EventHandler(this.btnNext_MouseLeave);
             // 
             // label3
             // 
@@ -171,6 +180,7 @@ namespace SustavZaPreporukuMobitela
             this.Controls.Add(this.radioFilm1);
             this.Name = "Pitanje8";
             this.Size = new System.Drawing.Size(634, 461);
+            this.Load += new System.EventHandler(this.Pitanje8_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

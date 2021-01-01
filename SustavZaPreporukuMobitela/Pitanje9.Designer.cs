@@ -29,27 +29,12 @@ namespace SustavZaPreporukuMobitela
         /// </summary>
         private void InitializeComponent()
         {
-            this.radioRadio3 = new System.Windows.Forms.RadioButton();
             this.radioRadio2 = new System.Windows.Forms.RadioButton();
             this.radioRadio1 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.radioRadio4 = new System.Windows.Forms.RadioButton();
-            this.radioRadio5 = new System.Windows.Forms.RadioButton();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // radioRadio3
-            // 
-            this.radioRadio3.AutoSize = true;
-            this.radioRadio3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.radioRadio3.Location = new System.Drawing.Point(67, 260);
-            this.radioRadio3.Name = "radioRadio3";
-            this.radioRadio3.Size = new System.Drawing.Size(101, 21);
-            this.radioRadio3.TabIndex = 12;
-            this.radioRadio3.TabStop = true;
-            this.radioRadio3.Text = "Povremeno";
-            this.radioRadio3.UseVisualStyleBackColor = true;
             // 
             // radioRadio2
             // 
@@ -57,11 +42,12 @@ namespace SustavZaPreporukuMobitela
             this.radioRadio2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.radioRadio2.Location = new System.Drawing.Point(67, 220);
             this.radioRadio2.Name = "radioRadio2";
-            this.radioRadio2.Size = new System.Drawing.Size(70, 21);
+            this.radioRadio2.Size = new System.Drawing.Size(45, 21);
             this.radioRadio2.TabIndex = 11;
             this.radioRadio2.TabStop = true;
-            this.radioRadio2.Text = "Rijetko";
+            this.radioRadio2.Text = "Da";
             this.radioRadio2.UseVisualStyleBackColor = true;
+            this.radioRadio2.CheckedChanged += new System.EventHandler(this.radioRadio2_CheckedChanged);
             // 
             // radioRadio1
             // 
@@ -74,6 +60,7 @@ namespace SustavZaPreporukuMobitela
             this.radioRadio1.TabStop = true;
             this.radioRadio1.Text = "Ne";
             this.radioRadio1.UseVisualStyleBackColor = true;
+            this.radioRadio1.CheckedChanged += new System.EventHandler(this.radioRadio1_CheckedChanged);
             // 
             // label1
             // 
@@ -86,30 +73,6 @@ namespace SustavZaPreporukuMobitela
             this.label1.Size = new System.Drawing.Size(267, 22);
             this.label1.TabIndex = 13;
             this.label1.Text = "Slušate li radio na mobitelu?";
-            // 
-            // radioRadio4
-            // 
-            this.radioRadio4.AutoSize = true;
-            this.radioRadio4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.radioRadio4.Location = new System.Drawing.Point(67, 300);
-            this.radioRadio4.Name = "radioRadio4";
-            this.radioRadio4.Size = new System.Drawing.Size(65, 21);
-            this.radioRadio4.TabIndex = 14;
-            this.radioRadio4.TabStop = true;
-            this.radioRadio4.Text = "Često";
-            this.radioRadio4.UseVisualStyleBackColor = true;
-            // 
-            // radioRadio5
-            // 
-            this.radioRadio5.AutoSize = true;
-            this.radioRadio5.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.radioRadio5.Location = new System.Drawing.Point(67, 340);
-            this.radioRadio5.Name = "radioRadio5";
-            this.radioRadio5.Size = new System.Drawing.Size(64, 21);
-            this.radioRadio5.TabIndex = 15;
-            this.radioRadio5.TabStop = true;
-            this.radioRadio5.Text = "Uvijek";
-            this.radioRadio5.UseVisualStyleBackColor = true;
             // 
             // btnBack
             // 
@@ -125,6 +88,8 @@ namespace SustavZaPreporukuMobitela
             this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.MouseEnter += new System.EventHandler(this.btnBack_MouseEnter);
+            this.btnBack.MouseLeave += new System.EventHandler(this.btnBack_MouseLeave);
             // 
             // btnNext
             // 
@@ -140,6 +105,8 @@ namespace SustavZaPreporukuMobitela
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnNext.MouseEnter += new System.EventHandler(this.btnNext_MouseEnter);
+            this.btnNext.MouseLeave += new System.EventHandler(this.btnNext_MouseLeave);
             // 
             // Pitanje9
             // 
@@ -149,10 +116,7 @@ namespace SustavZaPreporukuMobitela
             this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
-            this.Controls.Add(this.radioRadio5);
-            this.Controls.Add(this.radioRadio4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.radioRadio3);
             this.Controls.Add(this.radioRadio2);
             this.Controls.Add(this.radioRadio1);
             this.Name = "Pitanje9";
@@ -163,12 +127,9 @@ namespace SustavZaPreporukuMobitela
         }
 
         #endregion
-        private System.Windows.Forms.RadioButton radioRadio3;
         private System.Windows.Forms.RadioButton radioRadio2;
         private System.Windows.Forms.RadioButton radioRadio1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioRadio4;
-        private System.Windows.Forms.RadioButton radioRadio5;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnNext;
     }

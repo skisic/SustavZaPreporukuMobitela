@@ -51,6 +51,7 @@ namespace SustavZaPreporukuMobitela
             this.radioGaming3.TabStop = true;
             this.radioGaming3.Text = "Povremeno";
             this.radioGaming3.UseVisualStyleBackColor = true;
+            this.radioGaming3.CheckedChanged += new System.EventHandler(this.radioGaming3_CheckedChanged);
             // 
             // radioGaming2
             // 
@@ -63,6 +64,7 @@ namespace SustavZaPreporukuMobitela
             this.radioGaming2.TabStop = true;
             this.radioGaming2.Text = "Rijetko";
             this.radioGaming2.UseVisualStyleBackColor = true;
+            this.radioGaming2.CheckedChanged += new System.EventHandler(this.radioGaming2_CheckedChanged);
             // 
             // radioGaming1
             // 
@@ -75,6 +77,7 @@ namespace SustavZaPreporukuMobitela
             this.radioGaming1.TabStop = true;
             this.radioGaming1.Text = "Ne";
             this.radioGaming1.UseVisualStyleBackColor = true;
+            this.radioGaming1.CheckedChanged += new System.EventHandler(this.radioGaming1_CheckedChanged);
             // 
             // label1
             // 
@@ -99,6 +102,7 @@ namespace SustavZaPreporukuMobitela
             this.radioGaming4.TabStop = true;
             this.radioGaming4.Text = "Često";
             this.radioGaming4.UseVisualStyleBackColor = true;
+            this.radioGaming4.CheckedChanged += new System.EventHandler(this.radioGaming4_CheckedChanged);
             // 
             // radioGaming5
             // 
@@ -111,6 +115,7 @@ namespace SustavZaPreporukuMobitela
             this.radioGaming5.TabStop = true;
             this.radioGaming5.Text = "Uvijek";
             this.radioGaming5.UseVisualStyleBackColor = true;
+            this.radioGaming5.CheckedChanged += new System.EventHandler(this.radioGaming5_CheckedChanged);
             // 
             // btnBack
             // 
@@ -126,6 +131,8 @@ namespace SustavZaPreporukuMobitela
             this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.MouseEnter += new System.EventHandler(this.btnBack_MouseEnter);
+            this.btnBack.MouseLeave += new System.EventHandler(this.btnBack_MouseLeave);
             // 
             // btnNext
             // 
@@ -141,6 +148,8 @@ namespace SustavZaPreporukuMobitela
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnNext.MouseEnter += new System.EventHandler(this.btnNext_MouseEnter);
+            this.btnNext.MouseLeave += new System.EventHandler(this.btnNext_MouseLeave);
             // 
             // label3
             // 
