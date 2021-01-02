@@ -15,6 +15,7 @@ namespace SustavZaPreporukuMobitela
         public Pitanje1()
         {
             InitializeComponent();
+            btnNext.Enabled = false;
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -56,6 +57,25 @@ namespace SustavZaPreporukuMobitela
         private void btnNext_MouseLeave(object sender, EventArgs e)
         {
             btnNext.FlatAppearance.BorderColor = Color.FromArgb(224, 224, 224);
+        }
+
+        private void listaBrendova_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            List<String> odgBrand = new List<string>();
+            foreach (String brend in listaBrendova.SelectedItems)
+            {
+                odgBrand.Add(brend);
+            }
+
+            if (listaBrendova.SelectedItems.Count > 0 && listaBrendova.SelectedItems.Count <= 3)
+            {
+                BazaOdgovora.brand = odgBrand;
+                btnNext.Enabled = true;
+            }
+            else
+            {
+                btnNext.Enabled = false;
+            }
         }
     }
     

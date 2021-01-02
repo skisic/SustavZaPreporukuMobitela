@@ -8,7 +8,7 @@ namespace SustavZaPreporukuMobitela
 {
     public static class BazaOdgovora
     {
-        public static String brand = "";
+        public static List<String> brand = new List<string>();
         public static float budzet = 0;
         public static float baterija = 0;
         public static String operacijskiSistem = "";
