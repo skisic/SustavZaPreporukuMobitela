@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -57,6 +58,7 @@
     <Compile Include="FormPocetna.Designer.cs">
       <DependentUpon>FormPocetna.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mobitel.cs" />
     <Compile Include="Pitanje1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -149,6 +151,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Specifikacije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Specifikacije.Designer.cs">
+      <DependentUpon>Specifikacije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZadLoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZadLoadingForm.Designer.cs">
+      <DependentUpon>ZadLoadingForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zadnja.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -213,6 +227,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Specifikacije.resx">
+      <DependentUpon>Specifikacije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZadLoadingForm.resx">
+      <DependentUpon>ZadLoadingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Zadnja.resx">
       <DependentUpon>Zadnja.cs</DependentUpon>
     </EmbeddedResource>
@@ -246,6 +266,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\phone_usage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loader.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

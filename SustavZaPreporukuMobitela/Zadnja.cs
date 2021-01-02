@@ -17,12 +17,13 @@ namespace SustavZaPreporukuMobitela
             InitializeComponent();
         }
 
-        private void btn_preporuci_Click(object sender, EventArgs e)
+        private void prikaziData()
         {
+            System.Threading.Thread.Sleep(3000);
             String tekst = "";
-            foreach(String item in BazaOdgovora.brand)
+            foreach (String item in BazaOdgovora.brand)
             {
-                tekst = tekst + item+"; ";
+                tekst = tekst + item + "; ";
             }
             MessageBox.Show("brand " + tekst + "\n" +
             "budzet " + BazaOdgovora.budzet + "\n" +
@@ -46,6 +47,23 @@ namespace SustavZaPreporukuMobitela
             "zaobljeniEkran " + BazaOdgovora.zaobljeniEkran + "\n" +
             "godina " + BazaOdgovora.godina + "\n"
             );
+            Mobitel mob = BazaOdgovora.dajMobitel("Acer CloudMobile S500");
+            pictureBox_mob1.Load(mob.img_url);
+        }
+        private void btn_preporuci_Click(object sender, EventArgs e)
+        {
+            using (ZadLoadingForm zlf = new ZadLoadingForm(prikaziData))
+                zlf.ShowDialog();
+        }
+
+        private void btn_spec1_Click(object sender, EventArgs e)
+        {
+            Mobitel mob = BazaOdgovora.dajMobitel("Acer CloudMobile S500");
+            if (mob != null)
+            {
+                Specifikacije frmSpec = new Specifikacije(mob);
+                frmSpec.Show();
+            }
         }
     }
 }
