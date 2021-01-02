@@ -31,6 +31,7 @@ namespace SustavZaPreporukuMobitela
             pitanje131.Hide();
             pitanje141.Hide();
             pitanje151.Hide();
+            zadnja1.Hide();
 
         }
 

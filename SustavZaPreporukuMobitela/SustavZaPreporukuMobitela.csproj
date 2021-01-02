@@ -149,6 +149,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Zadnja.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Zadnja.Designer.cs">
+      <DependentUpon>Zadnja.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FormPocetna.resx">
       <DependentUpon>FormPocetna.cs</DependentUpon>
     </EmbeddedResource>
@@ -207,6 +213,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Zadnja.resx">
+      <DependentUpon>Zadnja.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
