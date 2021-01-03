@@ -35,6 +35,9 @@ namespace SustavZaPreporukuMobitela
             this.btnBack = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // radioPlacanjeNe
@@ -114,13 +117,34 @@ namespace SustavZaPreporukuMobitela
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(64, 106);
+            this.label2.Location = new System.Drawing.Point(64, 93);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(554, 30);
+            this.label2.Size = new System.Drawing.Size(524, 30);
             this.label2.TabIndex = 18;
-            this.label2.Text = "Ukoliko više koristite svoj uređaj, nego karticu, za plaćanje u trgovinama i drug" +
-    "im mjestima tada Vam\r\nje potreba uređaj koji posjeduje NFC te ćemo i takav uređa" +
+            this.label2.Text = "Ukoliko više koristite svoj uređaj nego karticu, za plaćanje u trgovinama i drugi" +
+    "m mjestima tada\r\nVam je potreban uređaj koji posjeduje NFC te ćemo i takav uređa" +
     "j preporučiti.\r\n";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DimGray;
+            this.label3.Location = new System.Drawing.Point(582, 425);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(43, 15);
+            this.label3.TabIndex = 22;
+            this.label3.Text = "10/15";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SustavZaPreporukuMobitela.Properties.Resources.phone_payment;
+            this.pictureBox1.Location = new System.Drawing.Point(290, 141);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(360, 263);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
             // 
             // Pitanje10
             // 
@@ -128,14 +152,17 @@ namespace SustavZaPreporukuMobitela
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.basic_theme;
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.radioPlacanjeNe);
             this.Controls.Add(this.radioPlacanjeDa);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Pitanje10";
             this.Size = new System.Drawing.Size(634, 461);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,5 +175,7 @@ namespace SustavZaPreporukuMobitela
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

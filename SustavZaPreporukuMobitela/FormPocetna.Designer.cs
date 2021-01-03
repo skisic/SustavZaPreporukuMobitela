@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPocetna));
-            this.label1 = new System.Windows.Forms.Label();
-            this.BtnPocetak = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.BtnExit = new System.Windows.Forms.Button();
+            this.zadnja1 = new SustavZaPreporukuMobitela.Zadnja();
             this.panelPocetna = new System.Windows.Forms.Panel();
+            this.BtnExit = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.BtnPocetak = new System.Windows.Forms.Button();
             this.pitanje151 = new SustavZaPreporukuMobitela.Pitanje15();
             this.pitanje141 = new SustavZaPreporukuMobitela.Pitanje14();
             this.pitanje131 = new SustavZaPreporukuMobitela.Pitanje13();
@@ -49,46 +49,33 @@
             this.pitanje31 = new SustavZaPreporukuMobitela.Pitanje3();
             this.pitanje21 = new SustavZaPreporukuMobitela.Pitanje2();
             this.pitanje11 = new SustavZaPreporukuMobitela.Pitanje1();
-            this.zadnja1 = new SustavZaPreporukuMobitela.Zadnja();
             this.panelPocetna.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // zadnja1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(104, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(406, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Sustav za preporuku mobitela";
+            this.zadnja1.Location = new System.Drawing.Point(0, 0);
+            this.zadnja1.Name = "zadnja1";
+            this.zadnja1.Size = new System.Drawing.Size(634, 461);
+            this.zadnja1.TabIndex = 0;
             // 
-            // BtnPocetak
+            // panelPocetna
             // 
-            this.BtnPocetak.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnPocetak.Location = new System.Drawing.Point(218, 113);
-            this.BtnPocetak.Name = "BtnPocetak";
-            this.BtnPocetak.Size = new System.Drawing.Size(144, 25);
-            this.BtnPocetak.TabIndex = 1;
-            this.BtnPocetak.Text = "Kreni";
-            this.BtnPocetak.UseVisualStyleBackColor = true;
-            this.BtnPocetak.Click += new System.EventHandler(this.BtnPocetak_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(149, 81);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(289, 26);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Odgovorite na pitanja kako bi Vam preporučili mobilni uređaj\r\nkoji najviše odgova" +
-    "ra Vašim potrebama.";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.panelPocetna.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.pocetna;
+            this.panelPocetna.Controls.Add(this.BtnExit);
+            this.panelPocetna.Controls.Add(this.label2);
+            this.panelPocetna.Controls.Add(this.BtnPocetak);
+            this.panelPocetna.Location = new System.Drawing.Point(0, 0);
+            this.panelPocetna.Name = "panelPocetna";
+            this.panelPocetna.Size = new System.Drawing.Size(634, 461);
+            this.panelPocetna.TabIndex = 4;
             // 
             // BtnExit
             // 
+            this.BtnExit.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.button2;
+            this.BtnExit.FlatAppearance.BorderSize = 0;
             this.BtnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnExit.Location = new System.Drawing.Point(218, 144);
+            this.BtnExit.Location = new System.Drawing.Point(248, 295);
             this.BtnExit.Name = "BtnExit";
             this.BtnExit.Size = new System.Drawing.Size(144, 25);
             this.BtnExit.TabIndex = 3;
@@ -96,16 +83,32 @@
             this.BtnExit.UseVisualStyleBackColor = true;
             this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
-            // panelPocetna
+            // label2
             // 
-            this.panelPocetna.Controls.Add(this.label1);
-            this.panelPocetna.Controls.Add(this.BtnExit);
-            this.panelPocetna.Controls.Add(this.label2);
-            this.panelPocetna.Controls.Add(this.BtnPocetak);
-            this.panelPocetna.Location = new System.Drawing.Point(12, 76);
-            this.panelPocetna.Name = "panelPocetna";
-            this.panelPocetna.Size = new System.Drawing.Size(599, 310);
-            this.panelPocetna.TabIndex = 4;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(144, 219);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(352, 32);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Odgovorite na pitanja kako bi Vam preporučili mobilni uređaj\r\nkoji najviše odgova" +
+    "ra Vašim potrebama.";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // BtnPocetak
+            // 
+            this.BtnPocetak.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.button;
+            this.BtnPocetak.FlatAppearance.BorderSize = 0;
+            this.BtnPocetak.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnPocetak.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.BtnPocetak.ForeColor = System.Drawing.Color.White;
+            this.BtnPocetak.Location = new System.Drawing.Point(248, 264);
+            this.BtnPocetak.Name = "BtnPocetak";
+            this.BtnPocetak.Size = new System.Drawing.Size(144, 25);
+            this.BtnPocetak.TabIndex = 1;
+            this.BtnPocetak.Text = "Kreni";
+            this.BtnPocetak.UseVisualStyleBackColor = true;
+            this.BtnPocetak.Click += new System.EventHandler(this.BtnPocetak_Click);
             // 
             // pitanje151
             // 
@@ -242,13 +245,6 @@
             this.pitanje11.Size = new System.Drawing.Size(634, 461);
             this.pitanje11.TabIndex = 5;
             // 
-            // zadnja1
-            // 
-            this.zadnja1.Location = new System.Drawing.Point(0, 0);
-            this.zadnja1.Name = "zadnja1";
-            this.zadnja1.Size = new System.Drawing.Size(634, 461);
-            this.zadnja1.TabIndex = 0;
-            // 
             // FormPocetna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -284,8 +280,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnPocetak;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BtnExit;
@@ -306,6 +300,7 @@
         private Pitanje14 pitanje141;
         private Pitanje15 pitanje151;
         private Zadnja zadnja1;
+
     }
 }
 

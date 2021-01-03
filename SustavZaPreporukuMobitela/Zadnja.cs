@@ -65,5 +65,20 @@ namespace SustavZaPreporukuMobitela
                 frmSpec.Show();
             }
         }
+
+        private void Zadnja_Load(object sender, EventArgs e)
+        {
+            this.lblNazivMobitela1.Hide();
+            this.lblNazivMobitela2.Hide();
+            this.lblNazivMobitela3.Hide();
+            this.btn_spec1.Hide();
+            this.btn_spec2.Hide();
+            this.btn_spec3.Hide();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

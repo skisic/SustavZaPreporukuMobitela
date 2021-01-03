@@ -270,5 +270,41 @@
   <ItemGroup>
     <None Include="Resources\loader.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pocetna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preporuceniMobitel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spec1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linija.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photography.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gaming.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edge.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
