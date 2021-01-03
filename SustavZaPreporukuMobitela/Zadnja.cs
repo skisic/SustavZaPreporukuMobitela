@@ -12,6 +12,10 @@ namespace SustavZaPreporukuMobitela
 {
     public partial class Zadnja : UserControl
     {
+        Mobitel mob1 = null;
+        Mobitel mob2 = null;
+        Mobitel mob3 = null;
+
         public Zadnja()
         {
             InitializeComponent();
@@ -19,41 +23,25 @@ namespace SustavZaPreporukuMobitela
 
         private void prikaziData()
         {
+
             System.Threading.Thread.Sleep(3000);
-            String tekst = "";
-            foreach (String item in BazaOdgovora.brand)
-            {
-                tekst = tekst + item + "; ";
-            }
-            MessageBox.Show("brand " + tekst + "\n" +
-            "budzet " + BazaOdgovora.budzet + "\n" +
-            "baterija " + BazaOdgovora.baterija + "\n" +
-            "operacijskiSistem " + BazaOdgovora.operacijskiSistem + "\n" +
-            "tezina " + BazaOdgovora.tezina + "\n" +
-            "gps " + BazaOdgovora.gps + "\n" +
-            "display " + BazaOdgovora.display + "\n" +
-            "kamera " + BazaOdgovora.kamera + "\n" +
-            "memorijskaKartica " + BazaOdgovora.memorijskaKartica + "\n" +
-            "cpu " + BazaOdgovora.cpu + "\n" +
-            "ram " + BazaOdgovora.ram + "\n" +
-            "unutarnjaMemorija " + BazaOdgovora.unutarnjaMemorija + "\n" +
-            "poboljsaniZvucnik " + BazaOdgovora.poboljsaniZvucnik + "\n" +
-            "audioPrikljucak " + BazaOdgovora.audioPrikljucak + "\n" +
-            "radio " + BazaOdgovora.radio + "\n" +
-            "nfc " + BazaOdgovora.nfc + "\n" +
-            "cetriG " + BazaOdgovora.cetriG + "\n" +
-            "bluetooth " + BazaOdgovora.bluetooth + "\n" +
-            "sim " + BazaOdgovora.sim + "\n" +
-            "zaobljeniEkran " + BazaOdgovora.zaobljeniEkran + "\n" +
-            "godina " + BazaOdgovora.godina + "\n"
-            );
-            Mobitel mob = BazaOdgovora.dajMobitel("Acer CloudMobile S500");
-            pictureBox_mob1.Load(mob.img_url);
+            mob1 = BazaOdgovora.dajMobitel("Acer CloudMobile S500");
+            pictureBox_mob1.Load(mob1.img_url);
+            
         }
         private void btn_preporuci_Click(object sender, EventArgs e)
         {
+
+            this.btn_preporuci.Hide();
             using (ZadLoadingForm zlf = new ZadLoadingForm(prikaziData))
                 zlf.ShowDialog();
+            lblNazivMobitela1.Show();
+            lblNazivMobitela1.Text = mob1.model;
+            lblNazivMobitela2.Show();
+            lblNazivMobitela3.Show();
+            btn_spec1.Show();
+            btn_spec2.Show();
+            btn_spec3.Show();
         }
 
         private void btn_spec1_Click(object sender, EventArgs e)

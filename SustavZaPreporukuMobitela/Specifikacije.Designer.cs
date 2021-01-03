@@ -116,9 +116,10 @@ namespace SustavZaPreporukuMobitela
             this.lab_key.BackColor = System.Drawing.Color.Transparent;
             this.lab_key.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lab_key.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lab_key.Location = new System.Drawing.Point(11, 11);
+            this.lab_key.Location = new System.Drawing.Point(15, 14);
+            this.lab_key.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lab_key.Name = "lab_key";
-            this.lab_key.Size = new System.Drawing.Size(102, 33);
+            this.lab_key.Size = new System.Drawing.Size(129, 43);
             this.lab_key.TabIndex = 0;
             this.lab_key.Text = "Brand";
             // 
@@ -128,9 +129,10 @@ namespace SustavZaPreporukuMobitela
             this.lblModel.BackColor = System.Drawing.Color.Transparent;
             this.lblModel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblModel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblModel.Location = new System.Drawing.Point(14, 44);
+            this.lblModel.Location = new System.Drawing.Point(19, 54);
+            this.lblModel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblModel.Name = "lblModel";
-            this.lblModel.Size = new System.Drawing.Size(55, 19);
+            this.lblModel.Size = new System.Drawing.Size(67, 24);
             this.lblModel.TabIndex = 1;
             this.lblModel.Text = "Model";
             // 
@@ -140,9 +142,10 @@ namespace SustavZaPreporukuMobitela
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label11.ForeColor = System.Drawing.Color.Teal;
-            this.label11.Location = new System.Drawing.Point(30, 116);
+            this.label11.Location = new System.Drawing.Point(40, 143);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(135, 15);
+            this.label11.Size = new System.Drawing.Size(159, 18);
             this.label11.TabIndex = 2;
             this.label11.Text = "Godina proizvodnje:";
             // 
@@ -152,9 +155,10 @@ namespace SustavZaPreporukuMobitela
             this.lblAnnounced.BackColor = System.Drawing.Color.Transparent;
             this.lblAnnounced.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblAnnounced.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblAnnounced.Location = new System.Drawing.Point(173, 116);
+            this.lblAnnounced.Location = new System.Drawing.Point(231, 143);
+            this.lblAnnounced.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAnnounced.Name = "lblAnnounced";
-            this.lblAnnounced.Size = new System.Drawing.Size(38, 15);
+            this.lblAnnounced.Size = new System.Drawing.Size(44, 18);
             this.lblAnnounced.TabIndex = 3;
             this.lblAnnounced.Text = "2015.";
             // 
@@ -164,9 +168,10 @@ namespace SustavZaPreporukuMobitela
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(30, 146);
+            this.label1.Location = new System.Drawing.Point(40, 180);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 15);
+            this.label1.Size = new System.Drawing.Size(87, 18);
             this.label1.TabIndex = 4;
             this.label1.Text = "Dimenzije:";
             // 
@@ -176,9 +181,10 @@ namespace SustavZaPreporukuMobitela
             this.lblDimensions.BackColor = System.Drawing.Color.Transparent;
             this.lblDimensions.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblDimensions.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDimensions.Location = new System.Drawing.Point(173, 146);
+            this.lblDimensions.Location = new System.Drawing.Point(231, 180);
+            this.lblDimensions.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDimensions.Name = "lblDimensions";
-            this.lblDimensions.Size = new System.Drawing.Size(86, 15);
+            this.lblDimensions.Size = new System.Drawing.Size(101, 18);
             this.lblDimensions.TabIndex = 5;
             this.lblDimensions.Text = "100 x 100 mm";
             // 
@@ -188,9 +194,10 @@ namespace SustavZaPreporukuMobitela
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(30, 161);
+            this.label2.Location = new System.Drawing.Point(40, 198);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 15);
+            this.label2.Size = new System.Drawing.Size(54, 18);
             this.label2.TabIndex = 6;
             this.label2.Text = "Masa:";
             // 
@@ -200,9 +207,10 @@ namespace SustavZaPreporukuMobitela
             this.lblWeight.BackColor = System.Drawing.Color.Transparent;
             this.lblWeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblWeight.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblWeight.Location = new System.Drawing.Point(173, 161);
+            this.lblWeight.Location = new System.Drawing.Point(231, 198);
+            this.lblWeight.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWeight.Name = "lblWeight";
-            this.lblWeight.Size = new System.Drawing.Size(38, 15);
+            this.lblWeight.Size = new System.Drawing.Size(44, 18);
             this.lblWeight.TabIndex = 7;
             this.lblWeight.Text = "125 g";
             // 
@@ -212,9 +220,10 @@ namespace SustavZaPreporukuMobitela
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(30, 176);
+            this.label3.Location = new System.Drawing.Point(40, 217);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 15);
+            this.label3.Size = new System.Drawing.Size(92, 18);
             this.label3.TabIndex = 8;
             this.label3.Text = "Rezolucija:";
             // 
@@ -224,9 +233,10 @@ namespace SustavZaPreporukuMobitela
             this.lblDisplayResoultion.BackColor = System.Drawing.Color.Transparent;
             this.lblDisplayResoultion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblDisplayResoultion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDisplayResoultion.Location = new System.Drawing.Point(173, 176);
+            this.lblDisplayResoultion.Location = new System.Drawing.Point(231, 217);
+            this.lblDisplayResoultion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDisplayResoultion.Name = "lblDisplayResoultion";
-            this.lblDisplayResoultion.Size = new System.Drawing.Size(75, 15);
+            this.lblDisplayResoultion.Size = new System.Drawing.Size(87, 18);
             this.lblDisplayResoultion.TabIndex = 9;
             this.lblDisplayResoultion.Text = "1025 x 1020";
             // 
@@ -236,9 +246,10 @@ namespace SustavZaPreporukuMobitela
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(30, 191);
+            this.label4.Location = new System.Drawing.Point(40, 235);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 15);
+            this.label4.Size = new System.Drawing.Size(127, 18);
             this.label4.TabIndex = 10;
             this.label4.Text = "Veličina ekrana:";
             // 
@@ -248,9 +259,10 @@ namespace SustavZaPreporukuMobitela
             this.lblDisplaySize.BackColor = System.Drawing.Color.Transparent;
             this.lblDisplaySize.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblDisplaySize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDisplaySize.Location = new System.Drawing.Point(173, 191);
+            this.lblDisplaySize.Location = new System.Drawing.Point(231, 235);
+            this.lblDisplaySize.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDisplaySize.Name = "lblDisplaySize";
-            this.lblDisplaySize.Size = new System.Drawing.Size(27, 15);
+            this.lblDisplaySize.Size = new System.Drawing.Size(31, 18);
             this.lblDisplaySize.TabIndex = 11;
             this.lblDisplaySize.Text = "5 in";
             // 
@@ -260,9 +272,10 @@ namespace SustavZaPreporukuMobitela
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(30, 251);
+            this.label5.Location = new System.Drawing.Point(40, 309);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 15);
+            this.label5.Size = new System.Drawing.Size(135, 18);
             this.label5.TabIndex = 12;
             this.label5.Text = "Procesor (CPU):";
             // 
@@ -272,9 +285,10 @@ namespace SustavZaPreporukuMobitela
             this.lblCPU.BackColor = System.Drawing.Color.Transparent;
             this.lblCPU.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblCPU.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblCPU.Location = new System.Drawing.Point(173, 251);
+            this.lblCPU.Location = new System.Drawing.Point(231, 309);
+            this.lblCPU.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCPU.Name = "lblCPU";
-            this.lblCPU.Size = new System.Drawing.Size(74, 15);
+            this.lblCPU.Size = new System.Drawing.Size(93, 18);
             this.lblCPU.TabIndex = 13;
             this.lblCPU.Text = "Exynos Octa";
             // 
@@ -284,9 +298,10 @@ namespace SustavZaPreporukuMobitela
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label7.ForeColor = System.Drawing.Color.Teal;
-            this.label7.Location = new System.Drawing.Point(30, 266);
+            this.label7.Location = new System.Drawing.Point(40, 327);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 15);
+            this.label7.Size = new System.Drawing.Size(121, 18);
             this.label7.TabIndex = 14;
             this.label7.Text = "Grafika (GPU):";
             // 
@@ -296,9 +311,10 @@ namespace SustavZaPreporukuMobitela
             this.lblGPU.BackColor = System.Drawing.Color.Transparent;
             this.lblGPU.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblGPU.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblGPU.Location = new System.Drawing.Point(173, 266);
+            this.lblGPU.Location = new System.Drawing.Point(231, 327);
+            this.lblGPU.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGPU.Name = "lblGPU";
-            this.lblGPU.Size = new System.Drawing.Size(34, 15);
+            this.lblGPU.Size = new System.Drawing.Size(41, 18);
             this.lblGPU.TabIndex = 15;
             this.lblGPU.Text = "ARM";
             // 
@@ -308,9 +324,10 @@ namespace SustavZaPreporukuMobitela
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(30, 296);
+            this.label6.Location = new System.Drawing.Point(40, 364);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 15);
+            this.label6.Size = new System.Drawing.Size(49, 18);
             this.label6.TabIndex = 16;
             this.label6.Text = "RAM:";
             // 
@@ -320,9 +337,10 @@ namespace SustavZaPreporukuMobitela
             this.lblRAM.BackColor = System.Drawing.Color.Transparent;
             this.lblRAM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblRAM.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblRAM.Location = new System.Drawing.Point(173, 296);
+            this.lblRAM.Location = new System.Drawing.Point(231, 364);
+            this.lblRAM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRAM.Name = "lblRAM";
-            this.lblRAM.Size = new System.Drawing.Size(37, 15);
+            this.lblRAM.Size = new System.Drawing.Size(46, 18);
             this.lblRAM.TabIndex = 17;
             this.lblRAM.Text = "8 GB ";
             // 
@@ -332,9 +350,10 @@ namespace SustavZaPreporukuMobitela
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label8.ForeColor = System.Drawing.Color.Teal;
-            this.label8.Location = new System.Drawing.Point(30, 326);
+            this.label8.Location = new System.Drawing.Point(40, 401);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(121, 15);
+            this.label8.Size = new System.Drawing.Size(139, 18);
             this.label8.TabIndex = 18;
             this.label8.Text = "Interna memorija:";
             // 
@@ -344,9 +363,10 @@ namespace SustavZaPreporukuMobitela
             this.lblInternalMemory.BackColor = System.Drawing.Color.Transparent;
             this.lblInternalMemory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblInternalMemory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblInternalMemory.Location = new System.Drawing.Point(173, 326);
+            this.lblInternalMemory.Location = new System.Drawing.Point(231, 401);
+            this.lblInternalMemory.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInternalMemory.Name = "lblInternalMemory";
-            this.lblInternalMemory.Size = new System.Drawing.Size(48, 15);
+            this.lblInternalMemory.Size = new System.Drawing.Size(58, 18);
             this.lblInternalMemory.TabIndex = 19;
             this.lblInternalMemory.Text = "128 GB";
             // 
@@ -356,9 +376,10 @@ namespace SustavZaPreporukuMobitela
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label9.ForeColor = System.Drawing.Color.Teal;
-            this.label9.Location = new System.Drawing.Point(30, 341);
+            this.label9.Location = new System.Drawing.Point(40, 420);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(133, 15);
+            this.label9.Size = new System.Drawing.Size(157, 18);
             this.label9.TabIndex = 20;
             this.label9.Text = "Memorijska kartica:";
             // 
@@ -368,9 +389,10 @@ namespace SustavZaPreporukuMobitela
             this.lblMemoryCard.BackColor = System.Drawing.Color.Transparent;
             this.lblMemoryCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblMemoryCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblMemoryCard.Location = new System.Drawing.Point(173, 341);
+            this.lblMemoryCard.Location = new System.Drawing.Point(231, 420);
+            this.lblMemoryCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMemoryCard.Name = "lblMemoryCard";
-            this.lblMemoryCard.Size = new System.Drawing.Size(67, 15);
+            this.lblMemoryCard.Size = new System.Drawing.Size(82, 18);
             this.lblMemoryCard.TabIndex = 21;
             this.lblMemoryCard.Text = "Do 128 GB";
             // 
@@ -380,9 +402,10 @@ namespace SustavZaPreporukuMobitela
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label10.ForeColor = System.Drawing.Color.Teal;
-            this.label10.Location = new System.Drawing.Point(30, 371);
+            this.label10.Location = new System.Drawing.Point(40, 457);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(113, 15);
+            this.label10.Size = new System.Drawing.Size(131, 18);
             this.label10.TabIndex = 22;
             this.label10.Text = "Prednja kamera:";
             // 
@@ -392,9 +415,10 @@ namespace SustavZaPreporukuMobitela
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label12.ForeColor = System.Drawing.Color.Teal;
-            this.label12.Location = new System.Drawing.Point(30, 386);
+            this.label12.Location = new System.Drawing.Point(40, 475);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(116, 15);
+            this.label12.Size = new System.Drawing.Size(136, 18);
             this.label12.TabIndex = 23;
             this.label12.Text = "Stražnja kamera:";
             // 
@@ -404,9 +428,10 @@ namespace SustavZaPreporukuMobitela
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label13.ForeColor = System.Drawing.Color.Teal;
-            this.label13.Location = new System.Drawing.Point(30, 416);
+            this.label13.Location = new System.Drawing.Point(40, 512);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(120, 15);
+            this.label13.Size = new System.Drawing.Size(143, 18);
             this.label13.TabIndex = 24;
             this.label13.Text = "Operativni sustav:";
             // 
@@ -416,9 +441,10 @@ namespace SustavZaPreporukuMobitela
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label14.ForeColor = System.Drawing.Color.Teal;
-            this.label14.Location = new System.Drawing.Point(30, 446);
+            this.label14.Location = new System.Drawing.Point(40, 549);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(83, 15);
+            this.label14.Size = new System.Drawing.Size(98, 18);
             this.label14.TabIndex = 25;
             this.label14.Text = "SIM kartica:";
             // 
@@ -428,9 +454,10 @@ namespace SustavZaPreporukuMobitela
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label15.ForeColor = System.Drawing.Color.Teal;
-            this.label15.Location = new System.Drawing.Point(30, 476);
+            this.label15.Location = new System.Drawing.Point(40, 586);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(73, 15);
+            this.label15.Size = new System.Drawing.Size(87, 18);
             this.label15.TabIndex = 26;
             this.label15.Text = "4G mreža:";
             // 
@@ -440,9 +467,10 @@ namespace SustavZaPreporukuMobitela
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label16.ForeColor = System.Drawing.Color.Teal;
-            this.label16.Location = new System.Drawing.Point(30, 506);
+            this.label16.Location = new System.Drawing.Point(40, 623);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(61, 15);
+            this.label16.Size = new System.Drawing.Size(70, 18);
             this.label16.TabIndex = 27;
             this.label16.Text = "Baterija:";
             // 
@@ -452,9 +480,10 @@ namespace SustavZaPreporukuMobitela
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label17.ForeColor = System.Drawing.Color.Teal;
-            this.label17.Location = new System.Drawing.Point(30, 536);
+            this.label17.Location = new System.Drawing.Point(40, 660);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(72, 15);
+            this.label17.Size = new System.Drawing.Size(85, 18);
             this.label17.TabIndex = 28;
             this.label17.Text = "Bluetooth:";
             // 
@@ -464,9 +493,10 @@ namespace SustavZaPreporukuMobitela
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label18.ForeColor = System.Drawing.Color.Teal;
-            this.label18.Location = new System.Drawing.Point(30, 551);
+            this.label18.Location = new System.Drawing.Point(40, 678);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(39, 15);
+            this.label18.Size = new System.Drawing.Size(47, 18);
             this.label18.TabIndex = 29;
             this.label18.Text = "USB:";
             // 
@@ -476,9 +506,10 @@ namespace SustavZaPreporukuMobitela
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label19.ForeColor = System.Drawing.Color.Teal;
-            this.label19.Location = new System.Drawing.Point(30, 566);
+            this.label19.Location = new System.Drawing.Point(40, 697);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(60, 15);
+            this.label19.Size = new System.Drawing.Size(71, 18);
             this.label19.TabIndex = 30;
             this.label19.Text = "Senzori:";
             // 
@@ -488,9 +519,10 @@ namespace SustavZaPreporukuMobitela
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label20.ForeColor = System.Drawing.Color.Teal;
-            this.label20.Location = new System.Drawing.Point(30, 581);
+            this.label20.Location = new System.Drawing.Point(40, 715);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(39, 15);
+            this.label20.Size = new System.Drawing.Size(48, 18);
             this.label20.TabIndex = 31;
             this.label20.Text = "GPS:";
             // 
@@ -500,9 +532,10 @@ namespace SustavZaPreporukuMobitela
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label21.ForeColor = System.Drawing.Color.Teal;
-            this.label21.Location = new System.Drawing.Point(30, 596);
+            this.label21.Location = new System.Drawing.Point(40, 734);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(49, 15);
+            this.label21.Size = new System.Drawing.Size(57, 18);
             this.label21.TabIndex = 32;
             this.label21.Text = "Radio:";
             // 
@@ -512,9 +545,10 @@ namespace SustavZaPreporukuMobitela
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label22.ForeColor = System.Drawing.Color.Teal;
-            this.label22.Location = new System.Drawing.Point(30, 611);
+            this.label22.Location = new System.Drawing.Point(40, 752);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(38, 15);
+            this.label22.Size = new System.Drawing.Size(47, 18);
             this.label22.TabIndex = 33;
             this.label22.Text = "NFC:";
             // 
@@ -524,9 +558,10 @@ namespace SustavZaPreporukuMobitela
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label23.ForeColor = System.Drawing.Color.Teal;
-            this.label23.Location = new System.Drawing.Point(30, 641);
+            this.label23.Location = new System.Drawing.Point(40, 789);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(59, 15);
+            this.label23.Size = new System.Drawing.Size(71, 18);
             this.label23.TabIndex = 34;
             this.label23.Text = "Zvučnik:";
             // 
@@ -536,9 +571,10 @@ namespace SustavZaPreporukuMobitela
             this.label24.BackColor = System.Drawing.Color.Transparent;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label24.ForeColor = System.Drawing.Color.Teal;
-            this.label24.Location = new System.Drawing.Point(30, 656);
+            this.label24.Location = new System.Drawing.Point(40, 807);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(120, 15);
+            this.label24.Size = new System.Drawing.Size(141, 18);
             this.label24.TabIndex = 35;
             this.label24.Text = "Ulaz za slušalice:";
             // 
@@ -548,9 +584,10 @@ namespace SustavZaPreporukuMobitela
             this.label25.BackColor = System.Drawing.Color.Transparent;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label25.ForeColor = System.Drawing.Color.Teal;
-            this.label25.Location = new System.Drawing.Point(30, 206);
+            this.label25.Location = new System.Drawing.Point(40, 254);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(40, 15);
+            this.label25.Size = new System.Drawing.Size(47, 18);
             this.label25.TabIndex = 36;
             this.label25.Text = "Boja:";
             // 
@@ -560,9 +597,10 @@ namespace SustavZaPreporukuMobitela
             this.label26.BackColor = System.Drawing.Color.Transparent;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label26.ForeColor = System.Drawing.Color.Teal;
-            this.label26.Location = new System.Drawing.Point(30, 221);
+            this.label26.Location = new System.Drawing.Point(40, 272);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(49, 15);
+            this.label26.Size = new System.Drawing.Size(60, 18);
             this.label26.TabIndex = 37;
             this.label26.Text = "EDGE:";
             // 
@@ -572,9 +610,10 @@ namespace SustavZaPreporukuMobitela
             this.label27.BackColor = System.Drawing.Color.Transparent;
             this.label27.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label27.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label27.Location = new System.Drawing.Point(253, 78);
+            this.label27.Location = new System.Drawing.Point(337, 96);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(157, 19);
+            this.label27.Size = new System.Drawing.Size(212, 24);
             this.label27.TabIndex = 38;
             this.label27.Text = "~ Cijena:                  €";
             // 
@@ -584,9 +623,10 @@ namespace SustavZaPreporukuMobitela
             this.lblPrice.BackColor = System.Drawing.Color.Transparent;
             this.lblPrice.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblPrice.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblPrice.Location = new System.Drawing.Point(321, 69);
+            this.lblPrice.Location = new System.Drawing.Point(428, 85);
+            this.lblPrice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrice.Name = "lblPrice";
-            this.lblPrice.Size = new System.Drawing.Size(75, 32);
+            this.lblPrice.Size = new System.Drawing.Size(93, 40);
             this.lblPrice.TabIndex = 39;
             this.lblPrice.Text = "1050";
             // 
@@ -596,9 +636,10 @@ namespace SustavZaPreporukuMobitela
             this.lblColor.BackColor = System.Drawing.Color.Transparent;
             this.lblColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblColor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblColor.Location = new System.Drawing.Point(173, 206);
+            this.lblColor.Location = new System.Drawing.Point(231, 254);
+            this.lblColor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblColor.Name = "lblColor";
-            this.lblColor.Size = new System.Drawing.Size(105, 15);
+            this.lblColor.Size = new System.Drawing.Size(128, 18);
             this.lblColor.TabIndex = 40;
             this.lblColor.Text = "Black, White, Blue";
             // 
@@ -608,9 +649,10 @@ namespace SustavZaPreporukuMobitela
             this.lblEdge.BackColor = System.Drawing.Color.Transparent;
             this.lblEdge.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblEdge.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblEdge.Location = new System.Drawing.Point(173, 221);
+            this.lblEdge.Location = new System.Drawing.Point(231, 272);
+            this.lblEdge.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEdge.Name = "lblEdge";
-            this.lblEdge.Size = new System.Drawing.Size(27, 15);
+            this.lblEdge.Size = new System.Drawing.Size(33, 18);
             this.lblEdge.TabIndex = 41;
             this.lblEdge.Text = "Yes";
             // 
@@ -620,9 +662,10 @@ namespace SustavZaPreporukuMobitela
             this.lblFrontCamera.BackColor = System.Drawing.Color.Transparent;
             this.lblFrontCamera.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblFrontCamera.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblFrontCamera.Location = new System.Drawing.Point(173, 371);
+            this.lblFrontCamera.Location = new System.Drawing.Point(231, 457);
+            this.lblFrontCamera.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFrontCamera.Name = "lblFrontCamera";
-            this.lblFrontCamera.Size = new System.Drawing.Size(40, 15);
+            this.lblFrontCamera.Size = new System.Drawing.Size(47, 18);
             this.lblFrontCamera.TabIndex = 42;
             this.lblFrontCamera.Text = "12MP";
             // 
@@ -632,9 +675,10 @@ namespace SustavZaPreporukuMobitela
             this.lblBackCamera.BackColor = System.Drawing.Color.Transparent;
             this.lblBackCamera.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblBackCamera.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblBackCamera.Location = new System.Drawing.Point(173, 386);
+            this.lblBackCamera.Location = new System.Drawing.Point(231, 475);
+            this.lblBackCamera.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBackCamera.Name = "lblBackCamera";
-            this.lblBackCamera.Size = new System.Drawing.Size(40, 15);
+            this.lblBackCamera.Size = new System.Drawing.Size(47, 18);
             this.lblBackCamera.TabIndex = 43;
             this.lblBackCamera.Text = "12MP";
             // 
@@ -644,9 +688,10 @@ namespace SustavZaPreporukuMobitela
             this.lblOS.BackColor = System.Drawing.Color.Transparent;
             this.lblOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblOS.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblOS.Location = new System.Drawing.Point(173, 416);
+            this.lblOS.Location = new System.Drawing.Point(231, 512);
+            this.lblOS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOS.Name = "lblOS";
-            this.lblOS.Size = new System.Drawing.Size(49, 15);
+            this.lblOS.Size = new System.Drawing.Size(58, 18);
             this.lblOS.TabIndex = 44;
             this.lblOS.Text = "Android";
             // 
@@ -656,9 +701,10 @@ namespace SustavZaPreporukuMobitela
             this.lblSIM.BackColor = System.Drawing.Color.Transparent;
             this.lblSIM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblSIM.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblSIM.Location = new System.Drawing.Point(173, 446);
+            this.lblSIM.Location = new System.Drawing.Point(231, 549);
+            this.lblSIM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSIM.Name = "lblSIM";
-            this.lblSIM.Size = new System.Drawing.Size(68, 15);
+            this.lblSIM.Size = new System.Drawing.Size(82, 18);
             this.lblSIM.TabIndex = 45;
             this.lblSIM.Text = "SIM kartica";
             // 
@@ -668,9 +714,10 @@ namespace SustavZaPreporukuMobitela
             this.lbl4G.BackColor = System.Drawing.Color.Transparent;
             this.lbl4G.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lbl4G.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lbl4G.Location = new System.Drawing.Point(173, 476);
+            this.lbl4G.Location = new System.Drawing.Point(231, 586);
+            this.lbl4G.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl4G.Name = "lbl4G";
-            this.lbl4G.Size = new System.Drawing.Size(61, 15);
+            this.lbl4G.Size = new System.Drawing.Size(74, 18);
             this.lbl4G.TabIndex = 46;
             this.lbl4G.Text = "4G mreža";
             // 
@@ -680,9 +727,10 @@ namespace SustavZaPreporukuMobitela
             this.lblBattery.BackColor = System.Drawing.Color.Transparent;
             this.lblBattery.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblBattery.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblBattery.Location = new System.Drawing.Point(173, 506);
+            this.lblBattery.Location = new System.Drawing.Point(231, 623);
+            this.lblBattery.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBattery.Name = "lblBattery";
-            this.lblBattery.Size = new System.Drawing.Size(63, 15);
+            this.lblBattery.Size = new System.Drawing.Size(74, 18);
             this.lblBattery.TabIndex = 47;
             this.lblBattery.Text = "4500 mAh";
             // 
@@ -692,9 +740,10 @@ namespace SustavZaPreporukuMobitela
             this.lblBluetooth.BackColor = System.Drawing.Color.Transparent;
             this.lblBluetooth.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblBluetooth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblBluetooth.Location = new System.Drawing.Point(173, 536);
+            this.lblBluetooth.Location = new System.Drawing.Point(231, 660);
+            this.lblBluetooth.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBluetooth.Name = "lblBluetooth";
-            this.lblBluetooth.Size = new System.Drawing.Size(27, 15);
+            this.lblBluetooth.Size = new System.Drawing.Size(33, 18);
             this.lblBluetooth.TabIndex = 48;
             this.lblBluetooth.Text = "Yes";
             // 
@@ -704,9 +753,10 @@ namespace SustavZaPreporukuMobitela
             this.lblUSB.BackColor = System.Drawing.Color.Transparent;
             this.lblUSB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblUSB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblUSB.Location = new System.Drawing.Point(173, 551);
+            this.lblUSB.Location = new System.Drawing.Point(231, 678);
+            this.lblUSB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUSB.Name = "lblUSB";
-            this.lblUSB.Size = new System.Drawing.Size(27, 15);
+            this.lblUSB.Size = new System.Drawing.Size(33, 18);
             this.lblUSB.TabIndex = 49;
             this.lblUSB.Text = "Yes";
             // 
@@ -716,9 +766,10 @@ namespace SustavZaPreporukuMobitela
             this.lblSensors.BackColor = System.Drawing.Color.Transparent;
             this.lblSensors.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblSensors.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblSensors.Location = new System.Drawing.Point(173, 566);
+            this.lblSensors.Location = new System.Drawing.Point(231, 697);
+            this.lblSensors.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSensors.Name = "lblSensors";
-            this.lblSensors.Size = new System.Drawing.Size(27, 15);
+            this.lblSensors.Size = new System.Drawing.Size(33, 18);
             this.lblSensors.TabIndex = 50;
             this.lblSensors.Text = "Yes";
             // 
@@ -728,9 +779,10 @@ namespace SustavZaPreporukuMobitela
             this.lblGPS.BackColor = System.Drawing.Color.Transparent;
             this.lblGPS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblGPS.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblGPS.Location = new System.Drawing.Point(173, 581);
+            this.lblGPS.Location = new System.Drawing.Point(231, 715);
+            this.lblGPS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGPS.Name = "lblGPS";
-            this.lblGPS.Size = new System.Drawing.Size(27, 15);
+            this.lblGPS.Size = new System.Drawing.Size(33, 18);
             this.lblGPS.TabIndex = 51;
             this.lblGPS.Text = "Yes";
             // 
@@ -740,9 +792,10 @@ namespace SustavZaPreporukuMobitela
             this.lblRadio.BackColor = System.Drawing.Color.Transparent;
             this.lblRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblRadio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblRadio.Location = new System.Drawing.Point(173, 596);
+            this.lblRadio.Location = new System.Drawing.Point(231, 734);
+            this.lblRadio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRadio.Name = "lblRadio";
-            this.lblRadio.Size = new System.Drawing.Size(27, 15);
+            this.lblRadio.Size = new System.Drawing.Size(33, 18);
             this.lblRadio.TabIndex = 52;
             this.lblRadio.Text = "Yes";
             // 
@@ -752,9 +805,10 @@ namespace SustavZaPreporukuMobitela
             this.lblNFC.BackColor = System.Drawing.Color.Transparent;
             this.lblNFC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblNFC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblNFC.Location = new System.Drawing.Point(173, 611);
+            this.lblNFC.Location = new System.Drawing.Point(231, 752);
+            this.lblNFC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNFC.Name = "lblNFC";
-            this.lblNFC.Size = new System.Drawing.Size(27, 15);
+            this.lblNFC.Size = new System.Drawing.Size(33, 18);
             this.lblNFC.TabIndex = 53;
             this.lblNFC.Text = "Yes";
             // 
@@ -764,9 +818,10 @@ namespace SustavZaPreporukuMobitela
             this.lblLoudSpeaker.BackColor = System.Drawing.Color.Transparent;
             this.lblLoudSpeaker.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblLoudSpeaker.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblLoudSpeaker.Location = new System.Drawing.Point(173, 641);
+            this.lblLoudSpeaker.Location = new System.Drawing.Point(231, 789);
+            this.lblLoudSpeaker.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLoudSpeaker.Name = "lblLoudSpeaker";
-            this.lblLoudSpeaker.Size = new System.Drawing.Size(82, 15);
+            this.lblLoudSpeaker.Size = new System.Drawing.Size(98, 18);
             this.lblLoudSpeaker.TabIndex = 54;
             this.lblLoudSpeaker.Text = "Loud speaker";
             // 
@@ -776,9 +831,10 @@ namespace SustavZaPreporukuMobitela
             this.lblAudioJack.BackColor = System.Drawing.Color.Transparent;
             this.lblAudioJack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblAudioJack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblAudioJack.Location = new System.Drawing.Point(173, 656);
+            this.lblAudioJack.Location = new System.Drawing.Point(231, 807);
+            this.lblAudioJack.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAudioJack.Name = "lblAudioJack";
-            this.lblAudioJack.Size = new System.Drawing.Size(98, 15);
+            this.lblAudioJack.Size = new System.Drawing.Size(117, 18);
             this.lblAudioJack.TabIndex = 55;
             this.lblAudioJack.Text = "3 mm audio jack";
             // 
@@ -786,9 +842,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox1.Location = new System.Drawing.Point(31, 134);
+            this.pictureBox1.Location = new System.Drawing.Point(41, 165);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox1.Size = new System.Drawing.Size(493, 12);
             this.pictureBox1.TabIndex = 56;
             this.pictureBox1.TabStop = false;
             // 
@@ -796,9 +853,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox2.Location = new System.Drawing.Point(31, 238);
+            this.pictureBox2.Location = new System.Drawing.Point(41, 293);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox2.Size = new System.Drawing.Size(493, 12);
             this.pictureBox2.TabIndex = 57;
             this.pictureBox2.TabStop = false;
             // 
@@ -806,9 +864,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox3.Location = new System.Drawing.Point(31, 284);
+            this.pictureBox3.Location = new System.Drawing.Point(41, 350);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox3.Size = new System.Drawing.Size(493, 12);
             this.pictureBox3.TabIndex = 58;
             this.pictureBox3.TabStop = false;
             // 
@@ -816,9 +875,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox4.Location = new System.Drawing.Point(31, 314);
+            this.pictureBox4.Location = new System.Drawing.Point(41, 386);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox4.Size = new System.Drawing.Size(493, 12);
             this.pictureBox4.TabIndex = 59;
             this.pictureBox4.TabStop = false;
             // 
@@ -826,9 +886,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox5.Location = new System.Drawing.Point(31, 359);
+            this.pictureBox5.Location = new System.Drawing.Point(41, 442);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox5.Size = new System.Drawing.Size(493, 12);
             this.pictureBox5.TabIndex = 60;
             this.pictureBox5.TabStop = false;
             // 
@@ -836,9 +897,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox6.Location = new System.Drawing.Point(31, 404);
+            this.pictureBox6.Location = new System.Drawing.Point(41, 497);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox6.Size = new System.Drawing.Size(493, 12);
             this.pictureBox6.TabIndex = 61;
             this.pictureBox6.TabStop = false;
             // 
@@ -846,9 +908,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox7.Location = new System.Drawing.Point(31, 434);
+            this.pictureBox7.Location = new System.Drawing.Point(41, 534);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox7.Size = new System.Drawing.Size(493, 12);
             this.pictureBox7.TabIndex = 62;
             this.pictureBox7.TabStop = false;
             // 
@@ -856,9 +919,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox8.Location = new System.Drawing.Point(31, 464);
+            this.pictureBox8.Location = new System.Drawing.Point(41, 571);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox8.Size = new System.Drawing.Size(493, 12);
             this.pictureBox8.TabIndex = 63;
             this.pictureBox8.TabStop = false;
             // 
@@ -866,9 +930,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox9.Location = new System.Drawing.Point(31, 494);
+            this.pictureBox9.Location = new System.Drawing.Point(41, 608);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox9.Size = new System.Drawing.Size(493, 12);
             this.pictureBox9.TabIndex = 64;
             this.pictureBox9.TabStop = false;
             // 
@@ -876,9 +941,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox10.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox10.Location = new System.Drawing.Point(31, 523);
+            this.pictureBox10.Location = new System.Drawing.Point(41, 644);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox10.Size = new System.Drawing.Size(493, 12);
             this.pictureBox10.TabIndex = 65;
             this.pictureBox10.TabStop = false;
             // 
@@ -886,9 +952,10 @@ namespace SustavZaPreporukuMobitela
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox11.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.linija;
-            this.pictureBox11.Location = new System.Drawing.Point(31, 629);
+            this.pictureBox11.Location = new System.Drawing.Point(41, 774);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(370, 10);
+            this.pictureBox11.Size = new System.Drawing.Size(493, 12);
             this.pictureBox11.TabIndex = 66;
             this.pictureBox11.TabStop = false;
             // 
@@ -899,9 +966,10 @@ namespace SustavZaPreporukuMobitela
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7F);
             this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnClose.Location = new System.Drawing.Point(405, 6);
+            this.btnClose.Location = new System.Drawing.Point(540, 7);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(20, 20);
+            this.btnClose.Size = new System.Drawing.Size(27, 25);
             this.btnClose.TabIndex = 67;
             this.btnClose.Text = "x";
             this.btnClose.UseVisualStyleBackColor = false;
@@ -909,11 +977,11 @@ namespace SustavZaPreporukuMobitela
             // 
             // Specifikacije
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SustavZaPreporukuMobitela.Properties.Resources.spec1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(430, 697);
+            this.ClientSize = new System.Drawing.Size(573, 858);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
@@ -982,9 +1050,9 @@ namespace SustavZaPreporukuMobitela
             this.Controls.Add(this.label11);
             this.Controls.Add(this.lblModel);
             this.Controls.Add(this.lab_key);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Specifikacije";
-            this.Text = "v";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

@@ -43,9 +43,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(160, 33);
+            this.label1.Location = new System.Drawing.Point(213, 41);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(302, 22);
+            this.label1.Size = new System.Drawing.Size(386, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Koji brend mobitela preferirate?";
             // 
@@ -56,9 +57,10 @@
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNext.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnNext.Location = new System.Drawing.Point(316, 410);
+            this.btnNext.Location = new System.Drawing.Point(421, 505);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(30, 30);
+            this.btnNext.Size = new System.Drawing.Size(40, 37);
             this.btnNext.TabIndex = 2;
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = false;
@@ -73,9 +75,10 @@
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnBack.Location = new System.Drawing.Point(280, 410);
+            this.btnBack.Location = new System.Drawing.Point(373, 505);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(30, 30);
+            this.btnBack.Size = new System.Drawing.Size(40, 37);
             this.btnBack.TabIndex = 3;
             this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -89,6 +92,7 @@
             this.listaBrendova.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.listaBrendova.ForeColor = System.Drawing.SystemColors.MenuText;
             this.listaBrendova.FormattingEnabled = true;
+            this.listaBrendova.ItemHeight = 17;
             this.listaBrendova.Items.AddRange(new object[] {
             "Acer",
             "Apple",
@@ -107,11 +111,11 @@
             "Sony",
             "Xiaomi",
             "ZTE"});
-            this.listaBrendova.Location = new System.Drawing.Point(67, 165);
-            this.listaBrendova.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listaBrendova.Location = new System.Drawing.Point(89, 203);
+            this.listaBrendova.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listaBrendova.Name = "listaBrendova";
             this.listaBrendova.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.listaBrendova.Size = new System.Drawing.Size(506, 184);
+            this.listaBrendova.Size = new System.Drawing.Size(674, 223);
             this.listaBrendova.TabIndex = 4;
             this.listaBrendova.SelectedIndexChanged += new System.EventHandler(this.listaBrendova_SelectedIndexChanged);
             // 
@@ -120,9 +124,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(64, 93);
+            this.label2.Location = new System.Drawing.Point(85, 114);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(386, 15);
+            this.label2.Size = new System.Drawing.Size(451, 17);
             this.label2.TabIndex = 19;
             this.label2.Text = "U donjoj listi označite maksimalno 3 brenda mobitela koje preferirate.\r\n";
             // 
@@ -131,15 +136,16 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DimGray;
-            this.label3.Location = new System.Drawing.Point(582, 425);
+            this.label3.Location = new System.Drawing.Point(776, 523);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 15);
+            this.label3.Size = new System.Drawing.Size(44, 20);
             this.label3.TabIndex = 20;
             this.label3.Text = "1/15";
             // 
             // Pitanje1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
@@ -149,8 +155,9 @@
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Pitanje1";
-            this.Size = new System.Drawing.Size(634, 461);
+            this.Size = new System.Drawing.Size(845, 567);
             this.Load += new System.EventHandler(this.Pitanje1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
