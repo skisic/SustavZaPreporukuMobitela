@@ -83,21 +83,31 @@ namespace SustavZaPreporukuMobitela
             {
                 lblNazivMobitela1.Show();
                 lblNazivMobitela1.Text = mob1.model;
-                pictureBox_mob1.Load(mob1.img_url);
-                btn_spec1.Show();
+                try
+                {
+                    pictureBox_mob1.Load(mob1.img_url);
+                }
+                catch (Exception ex) { }
+            btn_spec1.Show();
             }
             if (mob2 != null && mob2!=mob1)
             {
                 lblNazivMobitela2.Show();
                 lblNazivMobitela2.Text = mob2.model;
-                pictureBox_mob2.Load(mob2.img_url);
+                try {
+                    pictureBox_mob2.Load(mob2.img_url);
+                }
+                catch (Exception ex) { }
                 btn_spec2.Show();
             }
             if (mob3 != null && mob3!=mob2 && mob3!=mob1)
             {
                 lblNazivMobitela3.Show();
                 lblNazivMobitela3.Text = mob3.model;
-                pictureBox_mob3.Load(mob3.img_url);
+                try {
+                    pictureBox_mob3.Load(mob3.img_url);
+                }
+                catch (Exception ex) { }
                 btn_spec3.Show();
             }
         }
