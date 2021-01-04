@@ -18,6 +18,7 @@ namespace SustavZaPreporukuMobitela
             InitializeComponent();
             mobitel = mob;
             prikaziSpecifikacije(mobitel);
+            btnClose.Hide();
         }
 
         private void prikaziSpecifikacije(Mobitel mobitel)
