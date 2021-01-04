@@ -88,7 +88,15 @@ namespace SustavZaPreporukuMobitela
                     pictureBox_mob1.Load(mob1.img_url);
                 }
                 catch (Exception ex) {
-                    pictureBox_mob1.Image = Image.FromFile(@"../../../mob.jpg");
+                    try
+                    {
+                        String url = mob1.img_url.Replace("cdn2", "fdn2");
+                        pictureBox_mob1.Load(url);
+                    }
+                    catch (Exception exc)
+                    {
+                        pictureBox_mob1.Image = Image.FromFile(@"../../../mob.jpg");
+                    }
                 }
             btn_spec1.Show();
             }
@@ -101,7 +109,15 @@ namespace SustavZaPreporukuMobitela
                 }
                 catch (Exception ex)
                 {
-                    pictureBox_mob2.Image = Image.FromFile(@"../../../mob.jpg");
+                    try
+                    {
+                        String url = mob2.img_url.Replace("cdn2", "fdn2");
+                        pictureBox_mob2.Load(url);
+                    }
+                    catch (Exception ecx)
+                    {
+                        pictureBox_mob2.Image = Image.FromFile(@"../../../mob.jpg");
+                    }
                 }
                 btn_spec2.Show();
             }
@@ -114,7 +130,15 @@ namespace SustavZaPreporukuMobitela
                 }
                 catch (Exception ex)
                 {
-                    pictureBox_mob3.Image = Image.FromFile(@"../../../mob.jpg");
+                    try
+                    {
+                        String url = mob3.img_url.Replace("cdn2", "fdn2");
+                        pictureBox_mob3.Load(url);
+                    }
+                    catch (Exception exc)
+                    {
+                        pictureBox_mob3.Image = Image.FromFile(@"../../../mob.jpg");
+                    }
                 }
                 btn_spec3.Show();
             }
