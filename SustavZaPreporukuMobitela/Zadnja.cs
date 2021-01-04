@@ -87,7 +87,9 @@ namespace SustavZaPreporukuMobitela
                 {
                     pictureBox_mob1.Load(mob1.img_url);
                 }
-                catch (Exception ex) { }
+                catch (Exception ex) {
+                    pictureBox_mob1.Image = Image.FromFile(@"../../../mob.jpg");
+                }
             btn_spec1.Show();
             }
             if (mob2 != null && mob2!=mob1)
@@ -97,7 +99,10 @@ namespace SustavZaPreporukuMobitela
                 try {
                     pictureBox_mob2.Load(mob2.img_url);
                 }
-                catch (Exception ex) { }
+                catch (Exception ex)
+                {
+                    pictureBox_mob2.Image = Image.FromFile(@"../../../mob.jpg");
+                }
                 btn_spec2.Show();
             }
             if (mob3 != null && mob3!=mob2 && mob3!=mob1)
@@ -107,7 +112,10 @@ namespace SustavZaPreporukuMobitela
                 try {
                     pictureBox_mob3.Load(mob3.img_url);
                 }
-                catch (Exception ex) { }
+                catch (Exception ex)
+                {
+                    pictureBox_mob3.Image = Image.FromFile(@"../../../mob.jpg");
+                }
                 btn_spec3.Show();
             }
         }
