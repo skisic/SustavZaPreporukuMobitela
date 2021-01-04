@@ -36,7 +36,8 @@ namespace SustavZaPreporukuMobitela
         {
             List<String> brendovi = BazaOdgovora.brand;
             var processes = new List<Process>();
-            ProcessStartInfo startInfo = new ProcessStartInfo(@"..\..\..\SustavZaPreporukuMobitelaML.ConsoleApp\bin\Debug\netcoreapp3.1\SustavZaPreporukuMobitelaML.ConsoleApp.exe");
+            ProcessStartInfo startInfo = new ProcessStartInfo(
+                @"..\..\..\SustavZaPreporukuMobitelaML.ConsoleApp\bin\Debug\netcoreapp3.1\SustavZaPreporukuMobitelaML.ConsoleApp.exe");
             startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo.Arguments="pid1 "+brendovi.ElementAt(0)+" "+posloziArgumente();
             processes.Add(Process.Start(startInfo));

@@ -52,11 +52,9 @@ namespace SustavZaPreporukuMobitela
                         fields[12], fields[13], fields[14], fields[15], fields[16], fields[17],
                         fields[18], fields[19], fields[20], fields[21], fields[22], fields[23],
                         fields[24], fields[25], fields[26], fields[27], fields[28], fields[29], fields[30]);
-                    mobiteli.Add(mob);
-                    
+                    mobiteli.Add(mob);                    
                 }
             }
-
         }
 
         public static Mobitel dajMobitel(String key)
